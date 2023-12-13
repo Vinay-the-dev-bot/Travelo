@@ -2,6 +2,7 @@ body {
   margin: 5px 5%;
 }
 body #header {
+  padding: 0 50px;
   background-color: white;
 }
 body #header #topbar {
@@ -41,8 +42,7 @@ body #header #navBar #navBarlist > p {
 }
 body #header #navBar #contactUS {
   padding-top: 20px;
-}
-
+} 
 #first-mid-section {
   width: auto;
   height: 730px;
@@ -106,4 +106,87 @@ body #header #navBar #contactUS {
   font-family: "Afacad", sans-serif;
   line-height: 30px;
   font-weight: 300;
+
+body #footer {
+  background-color: #F9f9f9;
+}
+body #footer #footer1 {
+  padding: 0 30px;
+  display: flex;
+  height: 150px;
+  align-items: center;
+}
+body #footer #footer1 div {
+  padding: 20px;
+  font-size: 30px;
+  width: 25%;
+}
+body #footer #footer1 #socials {
+  width: 25%;
+}
+body #footer #footer1 #socials a {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+body #footer #footer1 #socials a img {
+  width: 25px;
+  margin: 25%;
+}
+body #footer #footer1 #emailInput {
+  height: 40px;
+  width: 250px;
+  border-radius: 20px;
+  border-style: none;
+  padding-left: 10px;
+}
+body #footer #footer1 .material-symbols-outlined {
+  background-color: black;
+  color: white;
+  height: 25px;
+  width: 25px;
+  padding: 10px;
+  position: absolute;
+  margin-left: -44px;
+  border-radius: 50%;
+}
+body #footer hr {
+  width: 90%;
+}
+body #footer #footer2 {
+  display: flex;
+  padding: 0 50px;
+}
+body #footer #footer2 #desc {
+  width: 40%;
+}
+body #footer #footer2 #desc p {
+  width: 200px;
+}
+body #footer #footer2 #contact {
+  width: 30%;
+}
+body #footer #footer2 #company {
+  width: 15%;
+}
+body #footer #footer2 #resource {
+  width: 15%;
+}
+body #footer #footer3 {
+  height: 50px;
+  align-items: center;
+  display: flex;
+  padding: 0 50px;
+}
+body #footer #footer3 #copyright {
+  width: 50%;
+}
+body #footer #footer3 #supportePayments {
+  display: flex;
+}
+body #footer #footer3 img {
+  width: 120px; 
 }/*# sourceMappingURL=style.css.map */
