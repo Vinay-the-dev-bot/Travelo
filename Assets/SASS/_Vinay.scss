@@ -36,7 +36,7 @@ body{
             grid-template-columns: repeat(3, 1fr);
             grid-template-rows: 25px;
             row-gap: 10px;
-            height: fit-content;
+            height: fit-content;font-family: 'Afacad', sans-serif;
    
             >p {
                height: 20px;
@@ -45,13 +45,13 @@ body{
          }
    
          #contactUS {
-            padding-top: 20px;
+            padding-top: 20px;font-family: 'Afacad', sans-serif;
          }
       }
   }
   #footer{
    background-color: #F9f9f9;
-   #footer1{
+   #footer1{font-family: 'Afacad', sans-serif;
       padding: 0 30px;
       display: flex;
       height: 150px;
@@ -98,7 +98,7 @@ body{
    hr{
       width: 90%;
    }
-   #footer2{
+   #footer2{font-family: 'Afacad', sans-serif;
       display: flex;
       padding: 0 50px;
       #desc{
@@ -118,7 +118,7 @@ body{
       }
 
    }
-   #footer3{
+   #footer3{font-family: 'Afacad', sans-serif;
       height: 50px;
       align-items: center;
       display: flex;
