@@ -195,4 +195,62 @@ body #footer #footer3 img {
   font-family: "Afacad", sans-serif;
   line-height: 30px;
   font-weight: 300;
+}
+
+.second-mid-section {
+  width: auto;
+  height: 850px;
+  margin-top: 20px;
+  display: flex;
+}
+.second-mid-section .second-text-section {
+  width: 600px;
+  margin: 5px 5px 5px 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.second-mid-section .second-text-section .second-section-heading {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  font-weight: 500;
+  height: 250px;
+  padding: 0px;
+}
+.second-mid-section .second-text-section .travel-plan {
+  width: 600px;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+}
+.second-mid-section .second-text-section .travel-plan span {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+.second-mid-section .second-text-section .travel-plan span .point-one {
+  font-weight: lighter;
+}
+.second-mid-section .second-text-section .travel-plan span .point-text {
+  font-weight: bolder;
+}
+.second-mid-section .second-text-section .travel-plan .travel-text {
+  font-family: "Poppins", sans-serif;
+  color: rgb(63, 63, 63);
+}
+.second-mid-section .second-text-section .flight-booking {
+  width: 600px;
+  height: 170px;
+}
+.second-mid-section .second-text-section .accomodation {
+  width: 600px;
+  height: 170px;
+}
+.second-mid-section .second-img-section {
+  width: 800px;
+  margin: 5px 5px 5px 5px;
+}
+.second-mid-section .second-img-section img {
+  width: 800px;
 }/*# sourceMappingURL=style.css.map */
