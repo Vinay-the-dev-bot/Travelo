@@ -80,3 +80,85 @@
     }
 }
 
+.second-mid-section{
+    // border: 1px solid black;
+    width: auto;
+    height: 850px;
+    margin-top: 20px;
+    display: flex;
+
+    .second-text-section{
+        // border: 1px solid red;
+        width: 600px;
+        margin: 5px 5px 5px 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        
+        .second-section-heading{
+            // border: 1px solid black;
+            font-family: 'Roboto', sans-serif;
+            font-size: 40px;
+            line-height: 90px;
+            letter-spacing: 5px;
+            font-weight: 500;
+            height: 250px;
+            padding: 0px;
+        }
+
+        .travel-plan{
+            // border: 1px solid black;
+            width: 600px;
+            height: 140px;
+            display: flex;
+            flex-direction: column;
+
+
+                span{
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 24px;
+
+                    .point-one{
+                        font-weight: lighter;
+                    }
+
+                    .point-text{
+                        font-weight: bolder;
+                    }
+                }
+
+                .travel-text{
+                    font-family: 'Poppins', sans-serif;
+                    color: rgb(63, 63, 63);;
+                }
+            
+            
+        }
+
+        .flight-booking{
+            // border: 1px solid black;
+            width: 600px;
+            height: 170px;
+        }
+        
+        .accomodation{
+            // border: 1px solid black;
+            width: 600px;
+            height: 170px;
+        }
+
+
+    }
+
+    .second-img-section{
+        // border: 1px solid red;
+        width: 800px;
+        margin: 5px 5px 5px 5px;
+
+        img{
+            width: 800px;
+        }
+    }
+}
+
