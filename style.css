@@ -253,4 +253,77 @@ body #footer #footer3 img {
 }
 .second-mid-section .second-img-section img {
   width: 800px;
+}
+
+#life-memory {
+  font-family: "Rethink Sans", sans-serif;
+}
+#life-memory #life-memory-heading {
+  margin: auto;
+  margin-top: 3.6rem;
+  width: 60%;
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 700;
+  font-family: "Rethink Sans", sans-serif;
+}
+#life-memory .life-memory-btns {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+#life-memory .life-memory-btns button {
+  padding: 1rem 1.9rem;
+  font-size: 0.8rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+}
+#life-memory .life-memory-btns p {
+  display: flex;
+  align-items: center;
+  padding-top: 0px;
+  font-size: 0.8rem;
+}
+#life-memory .life-memory-btns p > span {
+  font-size: 1.3rem;
+  margin: 0px;
+}
+#life-memory .life-memory-trk-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  gap: 4rem;
+}
+#life-memory .life-memory-trk-container .img-box > img {
+  width: 84%;
+}
+#life-memory .life-memory-trk-container .trekking-container .trekking-box {
+  display: flex;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+}
+#life-memory .life-memory-trk-container .trekking-container .trekking-box > h3 {
+  margin: 0;
+  font-weight: 500;
+}
+#life-memory .life-memory-trk-container .trekking-container .trekking-box > img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin-right: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+#life-memory .life-memory-trk-container .trekking-container .trekking-box .trekking-details > h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0;
+}
+#life-memory .life-memory-trk-container .trekking-container .trekking-box .trekking-details > p {
+  margin-top: 0.7rem;
 }/*# sourceMappingURL=style.css.map */
