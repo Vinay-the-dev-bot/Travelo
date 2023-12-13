@@ -41,4 +41,69 @@ body #header #navBar #navBarlist > p {
 }
 body #header #navBar #contactUS {
   padding-top: 20px;
+}
+
+#first-mid-section {
+  width: auto;
+  height: 730px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  padding-right: 0px;
+}
+#first-mid-section .first-sec-img {
+  width: 800px;
+  height: 500px;
+}
+#first-mid-section .first-sec-img img {
+  width: 100%;
+  height: 700px;
+}
+#first-mid-section .first-text-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 800px;
+  margin-right: 0px;
+  padding-right: 0px;
+  gap: 6%;
+}
+#first-mid-section .first-text-section .first-text-heading {
+  width: 600px;
+  height: 25%;
+  font-size: 25px;
+  margin-top: 17%;
+  margin-left: 35px;
+}
+#first-mid-section .first-text-section .first-text-heading h1 {
+  font-family: "Noto Sans", sans-serif;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  font-size: 55px;
+}
+#first-mid-section .first-text-section .round-text-div {
+  width: 650px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  gap: 8%;
+}
+#first-mid-section .first-text-section .round-text-div .round-img {
+  width: 200px;
+  height: 180px;
+  margin-left: 25px;
+}
+#first-mid-section .first-text-section .round-text-div img {
+  width: 200px;
+  height: 180px;
+}
+#first-mid-section .first-text-section .round-text-div .round-div-text {
+  height: 200px;
+  width: 400px;
+}
+#first-mid-section .first-text-section .round-text-div .round-div-text h3 {
+  color: rgb(63, 63, 63);
+  font-family: "Afacad", sans-serif;
+  line-height: 30px;
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */
