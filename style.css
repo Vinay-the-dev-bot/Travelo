@@ -142,6 +142,171 @@ body #footer #footer3 #supportePayments {
 body #footer #footer3 img {
   width: 120px;
 }
+body #searchForm {
+  display: flex;
+  flex-direction: column;
+}
+body #searchForm #popular {
+  height: 150px;
+  display: flex;
+  padding: 0 50px;
+}
+body #searchForm #popular p {
+  font-family: "Afacad", sans-serif;
+  font-size: 25px;
+  padding: 30px 15px 0 0;
+}
+body #searchForm #popular #countries {
+  margin: auto;
+  gap: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+body #searchForm #popular #countries button {
+  background-color: #F9f9f9;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  color: #36395A;
+  cursor: pointer;
+  font-family: "Afacad", sans-serif;
+  height: 48px;
+  padding: 0 40px;
+  transition: box-shadow 0.15s, transform 0.15s;
+  font-size: 25px;
+}
+body #searchForm #popular #countries button {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+body #searchForm #popular #countries button:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+body #searchForm #popular #countries button:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+body #searchForm #searchCriteria {
+  display: flex;
+  height: 150px;
+  align-items: center;
+  background-color: #F9f9f9;
+}
+body #searchForm #searchCriteria #selectBy, body #searchForm #searchCriteria #selectEvent {
+  display: block;
+  margin: auto;
+}
+body #searchForm #searchCriteria #selectBy select, body #searchForm #searchCriteria #selectEvent select {
+  font-family: "Afacad", sans-serif;
+  border-radius: 50px;
+  padding: 0 40px;
+  height: 40px;
+  font-size: 25px;
+}
+body #searchForm #searchInp {
+  padding: 20px 50px;
+  margin: 25px;
+  display: flex;
+  gap: 200px;
+}
+body #searchForm #searchInp #inputCountry {
+  width: 40%;
+  height: 40px;
+}
+body #searchForm #searchInp button {
+  display: block;
+  width: 30%;
+  height: 40px;
+  margin: auto;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 15px;
+  background-color: #00DA83;
+}
+body #searchForm #searchInp button {
+  box-shadow: #00DA83 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #00DA83 0 -3px 0 inset;
+}
+body #searchForm #searchInp button:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #00DA83 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+body #searchForm #searchInp button:active {
+  box-shadow: #00DA83 0 3px 7px inset;
+  transform: translateY(2px);
+}
+body #searchForm #searchResults {
+  font-family: "Afacad", sans-serif;
+  padding: 0 50px 50px 50px;
+  margin: auto;
+  width: 100%;
+}
+body #searchForm #searchResults .card {
+  margin: 20px 0;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 25px;
+  height: 350px;
+  width: 90%;
+  display: flex;
+}
+body #searchForm #searchResults .card img {
+  border-radius: 25px;
+  width: 50%;
+  height: 350px;
+}
+body #searchForm #searchResults .card .info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+body #searchForm #searchResults .card .info div {
+  display: flex;
+  gap: 50px;
+}
+body #searchForm #searchResults .card .info div input {
+  border-radius: 50px;
+  padding: 0 40px;
+  height: 40px;
+  font-size: 25px;
+  border-style: none;
+}
+body #searchForm #searchResults .card .info div button {
+  display: block;
+  font-family: "Afacad", sans-serif;
+  width: 30%;
+  height: 40px;
+  margin: auto;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 15px;
+  background-color: #00DA83;
+}
+body #searchForm #searchResults .card .info div button {
+  box-shadow: #00DA83 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #00DA83 0 -3px 0 inset;
+}
+body #searchForm #searchResults .card .info div button:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #00DA83 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+body #searchForm #searchResults .card .info div button:active {
+  box-shadow: #00DA83 0 3px 7px inset;
+  transform: translateY(2px);
+}
+body #searchForm #paginationButtons {
+  width: 100%;
+  display: flex;
+  justify-self: center;
+}
+body #searchForm #paginationButtons #buttons {
+  display: flex;
+  justify-self: center;
+  gap: 5px;
+  margin: auto;
+}
+body #searchForm #paginationButtons #buttons button {
+  width: 60px;
+  height: 30px;
+}
 
 #services h1 {
   text-align: center;
