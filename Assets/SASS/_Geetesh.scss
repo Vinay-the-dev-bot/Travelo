@@ -2,7 +2,7 @@
   font-family: 'Rethink Sans', sans-serif;
   #life-memory-heading {
     margin: auto;
-    margin-top: 3.6rem;
+    margin-top: 4rem;
     width: 60%;
     // line-height: %;
     text-align: center;
@@ -13,7 +13,7 @@
   }
   .life-memory-btns {
     // border: 2px solid red;
-    margin-top: 2rem;
+    margin-top: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 6rem;
+    margin-top: 3rem;
     margin-bottom: 6rem;
     gap: 4rem;
     .img-box {
@@ -87,21 +87,20 @@
     margin: auto;
     margin-top: 3.6rem;
     width: 90%;
-    // line-height: %;
     text-align: center;
     font-size: 3.8rem;
     font-weight: 700;
-    // font-family: 'Open Sans', sans-serif;
+   
     font-family: 'Rethink Sans', sans-serif;
   }
   > .Discover-the-touch-imgs {
     display: flex;
     align-items: center;
-    // justify-content: space-between;
+    
     justify-content: center;
     gap: 1.5rem;
-    margin-top: 3rem;
-    margin-bottom: 6rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
     > img {
       width: 21%;
       height: auto;
