@@ -1,0 +1,175 @@
+body {
+  background-color: #f9f9f9;
+  margin: 5px 5%;
+  #header {
+    margin-bottom: 3rem;
+    padding: 0 50px;
+    #topbar {
+      width: 100%;
+      height: 15px;
+      display: inline-flex;
+      border-top: 1px solid #bcbcbc;
+
+      .bar:nth-child(1) {
+        border-left: none;
+        width: 47%;
+      }
+
+      .bar {
+        width: 13%;
+        border-left: 1px solid #bcbcbc;
+      }
+    }
+
+    background-color: #f9f9f9;
+
+    #navBar {
+      display: flex;
+
+      #logo {
+        width: 48%;
+        font-size: 50px;
+      }
+
+      #navBarlist {
+        list-style: none;
+        width: 40%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 25px;
+        row-gap: 10px;
+        height: fit-content;
+        font-family: 'Afacad', sans-serif;
+
+        > p {
+          height: 20px;
+          margin: 0;
+        }
+        > a {
+          text-decoration: none;
+          color: black;
+          p {
+            height: 20px;
+            margin: 0;
+          }
+        }
+        .bold {
+          font-weight: 700;
+        }
+      }
+
+      #contactUS {
+        padding-top: 20px;
+        font-family: 'Afacad', sans-serif;
+      }
+    }
+  }
+
+  #about-us-container {
+    width: 83%;
+    margin: auto;
+    padding: 1.2rem 3.2rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    //   border: 2px solid black;
+    background-color: white;
+    border-radius: 1.5rem;
+    font-family: 'Afacad', sans-serif;
+    > h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    > p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+  }
+
+  #footer {
+    margin-top: 3rem;
+    background-color: #f9f9f9;
+    #footer1 {
+      font-family: 'Afacad', sans-serif;
+      padding: 0 30px;
+      display: flex;
+      height: 150px;
+      align-items: center;
+      div {
+        padding: 20px;
+        font-size: 30px;
+        width: 25%;
+      }
+      #socials {
+        width: 25%;
+        a {
+          display: inline-block;
+          vertical-align: middle;
+          background-color: white;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          img {
+            width: 25px;
+            margin: 25%;
+          }
+        }
+      }
+      #emailInput {
+        height: 40px;
+        width: 250px;
+        border-radius: 20px;
+        border-style: none;
+        padding-left: 10px;
+      }
+      .material-symbols-outlined {
+        background-color: black;
+        color: white;
+        height: 25px;
+        width: 25px;
+        padding: 10px;
+        position: absolute;
+        margin-left: -44px;
+        border-radius: 50%;
+      }
+    }
+    hr {
+      width: 90%;
+    }
+    #footer2 {
+      font-family: 'Afacad', sans-serif;
+      display: flex;
+      padding: 0 50px;
+      #desc {
+        width: 40%;
+        p {
+          width: 200px;
+        }
+      }
+      #contact {
+        width: 30%;
+      }
+      #company {
+        width: 15%;
+      }
+      #resource {
+        width: 15%;
+      }
+    }
+    #footer3 {
+      font-family: 'Afacad', sans-serif;
+      height: 50px;
+      align-items: center;
+      display: flex;
+      padding: 0 50px;
+      #copyright {
+        width: 50%;
+      }
+      #supportePayments {
+        display: flex;
+      }
+      img {
+        width: 120px;
+      }
+    }
+  }
+}
