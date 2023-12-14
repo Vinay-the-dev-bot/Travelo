@@ -1,6 +1,8 @@
 body {
+  background-color: #f9f9f9;
   margin: 5px 5%;
   #header {
+    margin-bottom: 3rem;
     padding: 0 50px;
     #topbar {
       width: 100%;
@@ -19,7 +21,7 @@ body {
       }
     }
 
-    background-color: white;
+    background-color: #f9f9f9;
 
     #navBar {
       display: flex;
@@ -51,9 +53,9 @@ body {
             margin: 0;
           }
         }
-        .bold{
+        .bold {
           font-weight: 700;
-       }
+        }
       }
 
       #contactUS {
@@ -62,7 +64,29 @@ body {
       }
     }
   }
+
+  #about-us-container {
+    width: 83%;
+    margin: auto;
+    padding: 1.2rem 3.2rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    //   border: 2px solid black;
+    background-color: white;
+    border-radius: 1.5rem;
+    font-family: 'Afacad', sans-serif;
+    > h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    > p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+  }
+
   #footer {
+    margin-top: 3rem;
     background-color: #f9f9f9;
     #footer1 {
       font-family: 'Afacad', sans-serif;
