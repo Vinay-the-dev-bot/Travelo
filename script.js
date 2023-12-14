@@ -1,1 +1,0 @@
-const URL = 'https://mock-api-template-1lt5.onrender.com/states'
