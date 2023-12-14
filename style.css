@@ -33,6 +33,7 @@ body #header #navBar #navBarlist {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 25px;
   row-gap: 10px;
+  height: -moz-fit-content;
   height: fit-content;
   font-family: "Afacad", sans-serif;
 }
@@ -398,4 +399,31 @@ body #footer #footer3 img {
   margin-top: 0.7rem;
 }
 
-/*# sourceMappingURL=style.css.map */
+#Discover-the-touch-container {
+  margin-top: 2rem;
+}
+#Discover-the-touch-container > h1 {
+  margin: auto;
+  margin-top: 3.6rem;
+  width: 90%;
+  text-align: center;
+  font-size: 3.8rem;
+  font-weight: 700;
+  font-family: "Rethink Sans", sans-serif;
+}
+#Discover-the-touch-container > .Discover-the-touch-imgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+#Discover-the-touch-container > .Discover-the-touch-imgs > img {
+  width: 21%;
+  height: auto;
+  border-radius: 1.4rem;
+}
+#Discover-the-touch-container > .Discover-the-touch-imgs > .m-top {
+  margin-top: 4rem;
+}/*# sourceMappingURL=style.css.map */
