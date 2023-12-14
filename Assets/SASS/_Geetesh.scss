@@ -69,17 +69,47 @@
           margin-bottom: 0.8rem;
         }
         .trekking-details {
-       
-        
           > h2 {
             font-size: 1.6rem;
             margin-bottom: 0;
           }
-          >p{
+          > p {
             margin-top: 0.7rem;
           }
         }
       }
+    }
+  }
+}
+#Discover-the-touch-container {
+  margin-top: 2rem;
+  > h1 {
+    margin: auto;
+    margin-top: 3.6rem;
+    width: 90%;
+    // line-height: %;
+    text-align: center;
+    font-size: 3.8rem;
+    font-weight: 700;
+    // font-family: 'Open Sans', sans-serif;
+    font-family: 'Rethink Sans', sans-serif;
+  }
+  > .Discover-the-touch-imgs {
+    display: flex;
+    align-items: center;
+    // justify-content: space-between;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    > img {
+      width: 21%;
+      height: auto;
+      // border: 2px solid black;
+      border-radius: 1.4rem;
+    }
+    > .m-top {
+      margin-top: 4rem;
     }
   }
 }
