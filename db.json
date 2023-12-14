@@ -1,0 +1,514 @@
+{
+    "states": [
+      {
+        "id": 1,
+        "stateName": "Haryana",
+        "population": 28941133,
+        "GDPRanking": 25,
+        "image": "https://source.unsplash.com/500x300?Haryana",
+        "language": "Hindi",
+        "capital": "Chandigarh",
+        "region": "North India",
+        "tourismPlaces": [
+          "Kurukshetra",
+          "Panipat",
+          "Gurugram"
+        ]
+      },
+      {
+        "id": 2,
+        "stateName": "Himachal Pradesh",
+        "population": 7316708,
+        "GDPRanking": 22,
+        "image": "https://source.unsplash.com/500x300?HimachalPradesh",
+        "language": "Hindi",
+        "capital": "Shimla",
+        "region": "North India",
+        "tourismPlaces": [
+          "Manali",
+          "Shimla",
+          "Dharamshala"
+        ]
+      },
+      {
+        "id": 3,
+        "stateName": "Jammu & Kashmir",
+        "population": 13606320,
+        "GDPRanking": 21,
+        "image": "https://source.unsplash.com/500x300?Jammu&Kashmir",
+        "language": "Urdu",
+        "capital": "Srinagar (summer), Jammu (winter)",
+        "region": "North India",
+        "tourismPlaces": [
+          "Srinagar",
+          "Gulmarg",
+          "Leh"
+        ]
+      },
+      {
+        "id": 4,
+        "stateName": "Goa",
+        "population": 154243,
+        "GDPRanking": 23,
+        "image": "https://source.unsplash.com/500x300?Goa",
+        "language": "Konkani",
+        "capital": "Panaji",
+        "region": "West India",
+        "tourismPlaces": [
+          "Baga Beach",
+          "Dudhsagar Waterfalls",
+          "Old Goa"
+        ]
+      },
+      {
+        "id": 5,
+        "stateName": "Tamil Nadu",
+        "population": 77841267,
+        "GDPRanking": 2,
+        "image": "https://source.unsplash.com/500x300?TamilNadu",
+        "language": "Tamil",
+        "capital": "Chennai",
+        "region": "South India",
+        "tourismPlaces": [
+          "Chennai",
+          "Madurai",
+          "Ooty"
+        ]
+      },
+      {
+        "id": 6,
+        "stateName": "West Bengal",
+        "population": 91276115,
+        "GDPRanking": 6,
+        "image": "https://source.unsplash.com/500x300?WestBengal",
+        "language": "Bengali",
+        "capital": "Kolkata",
+        "region": "East India",
+        "tourismPlaces": [
+          "Darjeeling",
+          "Sundarbans",
+          "Kolkata"
+        ]
+      },
+      {
+        "id": 7,
+        "stateName": "Madhya Pradesh",
+        "population": 85358965,
+        "GDPRanking": 10,
+        "image": "https://source.unsplash.com/500x300?MadhyaPradesh",
+        "language": "Hindi",
+        "capital": "Bhopal",
+        "region": "Central India",
+        "tourismPlaces": [
+          "Khajuraho",
+          "Sanchi",
+          "Kanha National Park"
+        ]
+      },
+      {
+        "id": 8,
+        "stateName": "Uttar Pradesh",
+        "population": 224979000,
+        "GDPRanking": 5,
+        "image": "https://source.unsplash.com/500x300?UttarPradesh",
+        "language": "Hindi",
+        "capital": "Lucknow",
+        "region": "North India",
+        "tourismPlaces": [
+          "Taj Mahal",
+          "Varanasi",
+          "Lucknow"
+        ]
+      },
+      {
+        "id": 9,
+        "stateName": "Telangana",
+        "population": 35193978,
+        "GDPRanking": 9,
+        "image": "https://source.unsplash.com/500x300?Telangana",
+        "language": "Telugu",
+        "capital": "Hyderabad",
+        "region": "South India",
+        "tourismPlaces": [
+          "Charminar",
+          "Golconda Fort",
+          "Hyderabad"
+        ]
+      },
+      {
+        "id": 10,
+        "stateName": "Kerala",
+        "population": 35699443,
+        "GDPRanking": 11,
+        "image": "https://source.unsplash.com/500x300?Kerala",
+        "language": "Malayalam",
+        "capital": "Thiruvananthapuram",
+        "region": "South India",
+        "tourismPlaces": [
+          "Kochi",
+          "Alappuzha",
+          "Munnar"
+        ]
+      },
+      {
+        "id": 11,
+        "stateName": "Assam",
+        "population": 35607039,
+        "GDPRanking": 17,
+        "image": "https://source.unsplash.com/500x300?Assam",
+        "language": "Assamese",
+        "capital": "Dispur",
+        "region": "North East India",
+        "tourismPlaces": [
+          "Kaziranga National Park",
+          "Guwahati",
+          "Majuli"
+        ]
+      },
+      {
+        "id": 12,
+        "stateName": "Jharkhand",
+        "population": 38593948,
+        "GDPRanking": 19,
+        "image": "https://source.unsplash.com/500x300?Jharkhand",
+        "language": "Hindi",
+        "capital": "Ranchi",
+        "region": "East India",
+        "tourismPlaces": [
+          "Dhanbad",
+          "Bokaro Steel City",
+          "Jamshedpur"
+        ]
+      },
+      {
+        "id": 13,
+        "stateName": "Chhattisgarh",
+        "population": 29969272,
+        "GDPRanking": 18,
+        "image": "https://source.unsplash.com/500x300?Chhattisgarh",
+        "language": "Chhattisgarhi",
+        "capital": "Raipur",
+        "region": "Central India",
+        "tourismPlaces": [
+          "Bastar",
+          "Raipur",
+          "Jagdalpur"
+        ]
+      },
+      {
+        "id": 14,
+        "stateName": "Arunachal Pradesh",
+        "population": 1382611,
+        "GDPRanking": 31,
+        "image": "https://source.unsplash.com/500x300?ArunachalPradesh",
+        "language": "English",
+        "capital": "Itanagar",
+        "region": "North East India",
+        "tourismPlaces": [
+          "Tawang",
+          "Ziro",
+          "Bomdila"
+        ]
+      },
+      {
+        "id": 15,
+        "stateName": "Manipur",
+        "population": 3091545,
+        "GDPRanking": 27,
+        "image": "https://source.unsplash.com/500x300?Manipur",
+        "language": "Meiteilon",
+        "capital": "Imphal",
+        "region": "North East India",
+        "tourismPlaces": [
+          "Loktak Lake",
+          "Kangla Fort",
+          "Imphal"
+        ]
+      },
+      {
+        "id": 16,
+        "stateName": "Meghalaya",
+        "population": 3366710,
+        "GDPRanking": 26,
+        "image": "https://source.unsplash.com/500x300?Meghalaya",
+        "language": "Khasi, Garo, English",
+        "capital": "Shillong",
+        "region": "North East India",
+        "tourismPlaces": [
+          "Shillong",
+          "Cherrapunji",
+          "Mawlynnong"
+        ]
+      },
+      {
+        "id": 17,
+        "stateName": "Mizoram",
+        "population": 1239244,
+        "GDPRanking": 32,
+        "image": "https://source.unsplash.com/500x300?Mizoram",
+        "language": "Mizo, English",
+        "capital": "Aizawl",
+        "region": "North East India",
+        "tourismPlaces": [
+          "Aizawl",
+          "Champhai",
+          "Lunglei"
+        ]
+      },
+      {
+        "id": 18,
+        "stateName": "Punjab",
+        "population": 30141373,
+        "GDPRanking": 10,
+        "image": "https://source.unsplash.com/500x300?Punjab",
+        "language": "Punjabi",
+        "capital": "Chandigarh",
+        "region": "North India",
+        "tourismPlaces": [
+          "Amritsar",
+          "Golden Temple",
+          "Jallianwala Bagh"
+        ]
+      },
+      {
+        "id": 19,
+        "stateName": "Sikkim",
+        "population": 689141,
+        "GDPRanking": 28,
+        "image": "https://source.unsplash.com/500x300?Sikkim",
+        "language": "Nepali",
+        "capital": "Gangtok",
+        "region": "North East India",
+        "tourismPlaces": [
+          "Gurudongmar Lake",
+          "Nathula Pass",
+          "Rumtek Monastery"
+        ]
+      },
+      {
+        "id": 20,
+        "stateName": "Andhra Pradesh",
+        "population": 53903393,
+        "GDPRanking": 8,
+        "image": "https://source.unsplash.com/500x300?AndhraPradesh",
+        "language": "Telugu",
+        "capital": "Amaravati",
+        "region": "South India",
+        "tourismPlaces": [
+          "Tirupati",
+          "Visakhapatnam",
+          "Vijayawada"
+        ]
+      },
+      {
+        "id": 21,
+        "stateName": "Bihar",
+        "population": 124799926,
+        "GDPRanking": 15,
+        "image": "https://source.unsplash.com/500x300?Bihar",
+        "language": "Hindi",
+        "capital": "Patna",
+        "region": "East India",
+        "tourismPlaces": [
+          "Bodh Gaya",
+          "Patna Sahib",
+          "Nalanda"
+        ]
+      },
+      {
+        "id": 22,
+        "stateName": "Gujarat",
+        "population": 63872399,
+        "GDPRanking": 3,
+        "image": "https://source.unsplash.com/500x300?Gujarat",
+        "language": "Gujarati",
+        "capital": "Gandhinagar",
+        "region": "West India",
+        "tourismPlaces": [
+          "Ahmedabad",
+          "Gir Forest National Park",
+          "Rann of Kutch"
+        ]
+      },
+      {
+        "id": 23,
+        "stateName": "Karnataka",
+        "population": 65798000,
+        "GDPRanking": 4,
+        "image": "https://source.unsplash.com/500x300?Karnataka",
+        "language": "Kannada",
+        "capital": "Bengaluru",
+        "region": "South India",
+        "tourismPlaces": [
+          "Mysuru",
+          "Hampi",
+          "Coorg"
+        ]
+      },
+      {
+        "id": 24,
+        "stateName": "Maharashtra",
+        "population": 123144223,
+        "GDPRanking": 1,
+        "image": "https://source.unsplash.com/500x300?Maharashtra",
+        "language": "Marathi",
+        "capital": "Mumbai",
+        "region": "West India",
+        "tourismPlaces": [
+          "Mumbai",
+          "Pune",
+          "Ajanta Caves"
+        ]
+      },
+      {
+        "id": 25,
+        "stateName": "Nagaland",
+        "population": 2165465,
+        "GDPRanking": 30,
+        "image": "https://source.unsplash.com/500x300?Nagaland",
+        "language": "English",
+        "capital": "Kohima",
+        "region": "North East India",
+        "tourismPlaces": [
+          "Kohima",
+          "Dimapur",
+          "Dzukou Valley"
+        ]
+      },
+      {
+        "id": 26,
+        "stateName": "Odisha",
+        "population": 43671000,
+        "GDPRanking": 14,
+        "image": "https://source.unsplash.com/500x300?Odisha",
+        "language": "Odia",
+        "capital": "Bhubaneswar",
+        "region": "East India",
+        "tourismPlaces": [
+          "Puri",
+          "Konark Sun Temple",
+          "Bhubaneswar"
+        ]
+      },
+      {
+        "id": 27,
+        "stateName": "Rajasthan",
+        "population": 77262239,
+        "GDPRanking": 7,
+        "image": "https://source.unsplash.com/500x300?Rajasthan",
+        "language": "Hindi",
+        "capital": "Jaipur",
+        "region": "North India",
+        "tourismPlaces": [
+          "Jaipur",
+          "Udaipur",
+          "Jodhpur"
+        ]
+      },
+      {
+        "id": 28,
+        "stateName": "Ladakh",
+        "population": 274000,
+        "GDPRanking": 36,
+        "image": "https://source.unsplash.com/500x300?Ladakh",
+        "language": "Ladakhi, Urdu, Hindi, English",
+        "capital": "Leh",
+        "region": "North India",
+        "tourismPlaces": [
+          "Pangong Lake",
+          "Nubra Valley",
+          "Thiksey Monastery"
+        ]
+      },
+      {
+        "id": 29,
+        "stateName": "Puducherry",
+        "population": 1506478,
+        "GDPRanking": 29,
+        "image": "https://source.unsplash.com/500x300?Puducherry",
+        "language": "Tamil, Malayalam, Telugu, French",
+        "capital": "Puducherry",
+        "region": "South India",
+        "tourismPlaces": [
+          "Paradise Beach",
+          "Auroville",
+          "Promenade Beach"
+        ]
+      },
+      {
+        "id": 30,
+        "stateName": "Delhi (National Capital Territory of Delhi)",
+        "population": 16787941,
+        "GDPRanking": 13,
+        "image": "https://source.unsplash.com/500x300?Delhi",
+        "language": "Hindi, English",
+        "capital": "New Delhi",
+        "region": "North India",
+        "tourismPlaces": [
+          "India Gate",
+          "Qutub Minar",
+          "Red Fort"
+        ]
+      },
+      {
+        "id": 31,
+        "stateName": "Lakshadweep",
+        "population": 73713,
+        "GDPRanking": 35,
+        "image": "https://source.unsplash.com/500x300?Lakshadweep",
+        "language": "Malayalam",
+        "capital": "Kavaratti",
+        "region": "South India",
+        "tourismPlaces": [
+          "Agatti Island",
+          "Bangaram Atoll",
+          "Kadmat Island"
+        ]
+      },
+      {
+        "id": 32,
+        "stateName": "Dadra and Nagar Haveli and Daman and Diu",
+        "population": 615724,
+        "GDPRanking": 34,
+        "image": "https://source.unsplash.com/500x300?Dadra",
+        "language": "Gujarati, Marathi, Konkani",
+        "capital": "Daman",
+        "region": "West India",
+        "tourismPlaces": [
+          "Daman Fort",
+          "Devka Beach",
+          "Moti Daman"
+        ]
+      },
+      {
+        "id": 33,
+        "stateName": "Chandigarh",
+        "population": 1179614,
+        "GDPRanking": 16,
+        "image": "https://source.unsplash.com/500x300?Chandigarh",
+        "language": "Punjabi, Hindi",
+        "capital": "Chandigarh",
+        "region": "North India",
+        "tourismPlaces": [
+          "Rock Garden",
+          "Sukhna Lake",
+          "Rose Garden"
+        ]
+      },
+      {
+        "id": 34,
+        "stateName": "Uttarakhand",
+        "population": 11141000,
+        "GDPRanking": 20,
+        "image": "https://source.unsplash.com/500x300?Uttarakhand",
+        "language": "Hindi",
+        "capital": "Dehradun",
+        "region": "North India",
+        "tourismPlaces": [
+          "Nainital",
+          "Mussoorie",
+          "Haridwar"
+        ]
+      }
+    ]
+  }

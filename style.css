@@ -271,15 +271,13 @@ body #footer #footer3 img {
 .second-mid-section {
   width: auto;
   height: 850px;
-  margin-top: 20px;
+  margin-top: 30px;
   display: flex;
 }
 .second-mid-section .second-text-section {
   width: 600px;
-  margin: 5px 5px 5px 5px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 .second-mid-section .second-text-section .second-section-heading {
   font-family: "Roboto", sans-serif;
@@ -295,6 +293,7 @@ body #footer #footer3 img {
   height: 140px;
   display: flex;
   flex-direction: column;
+  margin-top: 20px;
 }
 .second-mid-section .second-text-section .travel-plan span {
   font-family: "Poppins", sans-serif;
@@ -319,10 +318,12 @@ body #footer #footer3 img {
   height: 170px;
 }
 .second-mid-section .second-img-section {
-  width: 800px;
-  margin: 5px 5px 5px 5px;
+  width: 50%;
 }
 .second-mid-section .second-img-section img {
+
+  width: 100%;
+  padding-top: 20px;
   width: 800px;
 }
 
