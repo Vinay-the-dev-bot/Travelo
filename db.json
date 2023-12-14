@@ -1,0 +1,85 @@
+{
+  "countries": {
+    "usa": {
+      "id": 1,
+      "country": "United States",
+      "events": ["Trekking", "Skydiving", "Sightseeing"],
+      "trekkingImage": "trekking_usa.jpg",
+      "skydivingImage": "skydiving_usa.jpg",
+      "trekkingSpots": [
+        {
+          "title": "Appalachian Trail",
+          "state": "North Carolina",
+          "district": "Great Smoky Mountains",
+          "price": 40
+        },
+        {
+          "title": "Yosemite National Park",
+          "state": "California",
+          "district": "Sierra Nevada",
+          "price": 50
+        },
+        {
+          "title": "Grand Canyon",
+          "state": "Arizona",
+          "district": "Grand Canyon Village",
+          "price": 45
+        }
+      ]
+    },
+    "australia": {
+      "id": 2,
+      "country": "Australia",
+      "events": ["Snorkeling", "Surfing", "Wildlife Safari"],
+      "snorkelingImage": "snorkeling_australia.jpg",
+      "surfingImage": "surfing_australia.jpg",
+      "trekkingSpots": [
+        {
+          "title": "Great Barrier Reef",
+          "state": "Queensland",
+          "district": "Cairns",
+          "price": 60
+        },
+        {
+          "title": "Bondi Beach",
+          "state": "New South Wales",
+          "district": "Sydney",
+          "price": 30
+        },
+        {
+          "title": "Kakadu National Park",
+          "state": "Northern Territory",
+          "district": "Kakadu",
+          "price": 55
+        }
+      ]
+    },
+    "switzerland": {
+      "id": 3,
+      "country": "Switzerland",
+      "events": ["Skiing", "Paragliding", "Chocolate Tasting"],
+      "skiingImage": "skiing_switzerland.jpg",
+      "paraglidingImage": "paragliding_switzerland.jpg",
+      "trekkingSpots": [
+        {
+          "title": "Zermatt",
+          "state": "Valais",
+          "district": "Zermatt",
+          "price": 70
+        },
+        {
+          "title": "Interlaken",
+          "state": "Bern",
+          "district": "Interlaken",
+          "price": 65
+        },
+        {
+          "title": "Lucerne",
+          "state": "Lucerne",
+          "district": "Lucerne",
+          "price": 50
+        }
+      ]
+    }
+  }
+}
