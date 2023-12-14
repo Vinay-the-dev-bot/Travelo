@@ -1,0 +1,114 @@
+#life-memory {
+  font-family: 'Rethink Sans', sans-serif;
+  #life-memory-heading {
+    margin: auto;
+    margin-top: 4rem;
+    width: 60%;
+    // line-height: %;
+    text-align: center;
+    font-size: 4.5rem;
+    font-weight: 700;
+    // font-family: 'Open Sans', sans-serif;
+    font-family: 'Rethink Sans', sans-serif;
+  }
+  .life-memory-btns {
+    // border: 2px solid red;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    button {
+      padding: 1rem 1.9rem;
+      font-size: 0.8rem;
+      border-radius: 2rem;
+      border: none;
+      background-color: black;
+      color: white;
+      font-weight: 600;
+    }
+    p {
+      display: flex;
+      align-items: center;
+      padding-top: 0px;
+      font-size: 0.8rem;
+    }
+    p > span {
+      font-size: 1.3rem;
+      margin: 0px;
+    }
+  }
+  .life-memory-trk-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    gap: 4rem;
+    .img-box {
+      > img {
+        width: 84%;
+      }
+    }
+    .trekking-container {
+      .trekking-box {
+        display: flex;
+        gap: 0.8rem;
+        margin-bottom: 2rem;
+        > h3 {
+          // position: relative;
+          // top: 0;
+          margin: 0;
+          font-weight: 500;
+        }
+        > img {
+          width: 6rem;
+          height: 6rem;
+          border-radius: 50%;
+          margin-right: 0.8rem;
+          margin-bottom: 0.8rem;
+        }
+        .trekking-details {
+          > h2 {
+            font-size: 1.6rem;
+            margin-bottom: 0;
+          }
+          > p {
+            margin-top: 0.7rem;
+          }
+        }
+      }
+    }
+  }
+}
+#Discover-the-touch-container {
+  margin-top: 2rem;
+  > h1 {
+    margin: auto;
+    margin-top: 3.6rem;
+    width: 90%;
+    text-align: center;
+    font-size: 3.8rem;
+    font-weight: 700;
+   
+    font-family: 'Rethink Sans', sans-serif;
+  }
+  > .Discover-the-touch-imgs {
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    > img {
+      width: 21%;
+      height: auto;
+      // border: 2px solid black;
+      border-radius: 1.4rem;
+    }
+    > .m-top {
+      margin-top: 4rem;
+    }
+  }
+}

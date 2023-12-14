@@ -132,6 +132,77 @@ body #footer #footer3 img {
   width: 120px;
 }
 
+#services h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+}
+#services #ser {
+  display: grid;
+  gap: 22px 23px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin-bottom: -266px;
+  justify-content: space-between;
+  margin-left: 85px;
+  margin-right: 135px;
+}
+#services #ser > div {
+  background-color: #f9f9f9;
+  height: 300px;
+  width: 300px;
+  border-radius: 8%;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 45px;
+}
+#services #ser > div p {
+  color: grey;
+  font-weight: 300;
+}
+#services #ser > div h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+@media screen and (min-width: 100px) and (max-width: 650px) {
+  #services #ser {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+}
+
+#travel h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+}
+#travel #flexbox {
+  display: flex;
+  gap: 3px;
+  margin-left: 85px;
+  margin-right: 135px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+#travel #flexbox > div {
+  height: 400px;
+  width: 300px;
+  padding-left: 40px;
+  padding-right: 30px;
+}
+#travel #flexbox > div p {
+  color: grey;
+  font-weight: 300;
+}
+#travel #flexbox > div h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+
 #first-mid-section {
   width: auto;
   height: 730px;
@@ -250,6 +321,110 @@ body #footer #footer3 img {
   width: 50%;
 }
 .second-mid-section .second-img-section img {
+
   width: 100%;
   padding-top: 20px;
+  width: 800px;
+}
+
+#life-memory {
+  font-family: "Rethink Sans", sans-serif;
+}
+#life-memory #life-memory-heading {
+  margin: auto;
+  margin-top: 4rem;
+  width: 60%;
+  text-align: center;
+  font-size: 4.5rem;
+  font-weight: 700;
+  font-family: "Rethink Sans", sans-serif;
+}
+#life-memory .life-memory-btns {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+#life-memory .life-memory-btns button {
+  padding: 1rem 1.9rem;
+  font-size: 0.8rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+}
+#life-memory .life-memory-btns p {
+  display: flex;
+  align-items: center;
+  padding-top: 0px;
+  font-size: 0.8rem;
+}
+#life-memory .life-memory-btns p > span {
+  font-size: 1.3rem;
+  margin: 0px;
+}
+#life-memory .life-memory-trk-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+  gap: 4rem;
+}
+#life-memory .life-memory-trk-container .img-box > img {
+  width: 84%;
+}
+#life-memory .life-memory-trk-container .trekking-container .trekking-box {
+  display: flex;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+}
+#life-memory .life-memory-trk-container .trekking-container .trekking-box > h3 {
+  margin: 0;
+  font-weight: 500;
+}
+#life-memory .life-memory-trk-container .trekking-container .trekking-box > img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  margin-right: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+#life-memory .life-memory-trk-container .trekking-container .trekking-box .trekking-details > h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0;
+}
+#life-memory .life-memory-trk-container .trekking-container .trekking-box .trekking-details > p {
+  margin-top: 0.7rem;
+}
+
+#Discover-the-touch-container {
+  margin-top: 2rem;
+}
+#Discover-the-touch-container > h1 {
+  margin: auto;
+  margin-top: 3.6rem;
+  width: 90%;
+  text-align: center;
+  font-size: 3.8rem;
+  font-weight: 700;
+  font-family: "Rethink Sans", sans-serif;
+}
+#Discover-the-touch-container > .Discover-the-touch-imgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+#Discover-the-touch-container > .Discover-the-touch-imgs > img {
+  width: 21%;
+  height: auto;
+  border-radius: 1.4rem;
+}
+#Discover-the-touch-container > .Discover-the-touch-imgs > .m-top {
+  margin-top: 4rem;
 }/*# sourceMappingURL=style.css.map */
