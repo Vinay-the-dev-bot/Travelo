@@ -1,85 +1,157 @@
-{
-  "countries": {
-    "usa": {
-      "id": 1,
-      "country": "United States",
-      "events": ["Trekking", "Skydiving", "Sightseeing"],
-      "trekkingImage": "trekking_usa.jpg",
-      "skydivingImage": "skydiving_usa.jpg",
-      "trekkingSpots": [
-        {
-          "title": "Appalachian Trail",
+{ "countries" : [{
+  "id": 1,
+  "country": "United States", 
+  "trekkingSpots": [
+      {
+          "title": "USA TREKKING Appalachian Trail",
           "state": "North Carolina",
           "district": "Great Smoky Mountains",
-          "price": 40
-        },
-        {
-          "title": "Yosemite National Park",
+          "price": 40,
+           "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+          "title": "USA TREKKING  Yosemite National Park",
           "state": "California",
           "district": "Sierra Nevada",
-          "price": 50
-        },
-        {
-          "title": "Grand Canyon",
+          "price": 50,
+           "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+          "title": "USA TREKKING  Grand Canyon",
           "state": "Arizona",
           "district": "Grand Canyon Village",
-          "price": 45
+          "price": 45,
+          "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+
+      }
+  ],
+  "skyDivingSpots": [
+      {
+          "title": "USA skyDivingSpots Appalachian skyDivingSpots Trail",
+          "state": "North Carolina",
+          "district": "Great Smoky Mountains",
+          "price": 40,
+           "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+          "title": "USA skyDivingSpots Yosemite National skyDivingSpots Park",
+          "state": "California",
+          "district": "Sierra Nevada",
+          "price": 50,
+           "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+          "title": "USA skyDivingSpots Grand skyDivingSpots Canyon",
+          "state": "Arizona",
+          "district": "Grand Canyon Village",
+          "price": 45,
+          "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+
+      }
+  ],
+    "raftingSpots": [
+      {
+          "title": "USA raftingSpots Appalachian title Trail",
+          "state": "North Carolina",
+          "district": "Great Smoky Mountains",
+          "price": 40,
+           "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+          "title": "USA raftingSpots Yosemite title National Park",
+          "state": "California",
+          "district": "Sierra Nevada",
+          "price": 50,
+           "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      },
+      {
+          "title": "USA raftingSpots Grand title Canyon",
+          "state": "Arizona",
+          "district": "Grand Canyon Village",
+          "price": 45,
+          "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+
+      }
+  ]
+  
+ 
+  },
+  {
+    "id": 2,
+    "country": "India", 
+    "trekkingSpots": [
+        {
+            "title": "USA TREKKING Appalachian Trail",
+            "state": "North Carolina",
+            "district": "Great Smoky Mountains",
+            "price": 40,
+             "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+            "title": "USA TREKKING  Yosemite National Park",
+            "state": "California",
+            "district": "Sierra Nevada",
+            "price": 50,
+             "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        },
+        {
+            "title": "USA TREKKING  Grand Canyon",
+            "state": "Arizona",
+            "district": "Grand Canyon Village",
+            "price": 45,
+            "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  
         }
-      ]
-    },
-    "australia": {
-      "id": 2,
-      "country": "Australia",
-      "events": ["Snorkeling", "Surfing", "Wildlife Safari"],
-      "snorkelingImage": "snorkeling_australia.jpg",
-      "surfingImage": "surfing_australia.jpg",
-      "trekkingSpots": [
+    ],
+    "skyDivingSpots": [
         {
-          "title": "Great Barrier Reef",
-          "state": "Queensland",
-          "district": "Cairns",
-          "price": 60
+            "title": "USA skyDivingSpots Appalachian skyDivingSpots Trail",
+            "state": "North Carolina",
+            "district": "Great Smoky Mountains",
+            "price": 40,
+             "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
-          "title": "Bondi Beach",
-          "state": "New South Wales",
-          "district": "Sydney",
-          "price": 30
+            "title": "USA skyDivingSpots Yosemite National skyDivingSpots Park",
+            "state": "California",
+            "district": "Sierra Nevada",
+            "price": 50,
+             "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
-          "title": "Kakadu National Park",
-          "state": "Northern Territory",
-          "district": "Kakadu",
-          "price": 55
+            "title": "USA skyDivingSpots Grand skyDivingSpots Canyon",
+            "state": "Arizona",
+            "district": "Grand Canyon Village",
+            "price": 45,
+            "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  
         }
-      ]
-    },
-    "switzerland": {
-      "id": 3,
-      "country": "Switzerland",
-      "events": ["Skiing", "Paragliding", "Chocolate Tasting"],
-      "skiingImage": "skiing_switzerland.jpg",
-      "paraglidingImage": "paragliding_switzerland.jpg",
-      "trekkingSpots": [
+    ],
+      "raftingSpots": [
         {
-          "title": "Zermatt",
-          "state": "Valais",
-          "district": "Zermatt",
-          "price": 70
+            "title": "USA raftingSpots Appalachian title Trail",
+            "state": "North Carolina",
+            "district": "Great Smoky Mountains",
+            "price": 40,
+             "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
-          "title": "Interlaken",
-          "state": "Bern",
-          "district": "Interlaken",
-          "price": 65
+            "title": "USA raftingSpots Yosemite title National Park",
+            "state": "California",
+            "district": "Sierra Nevada",
+            "price": 50,
+             "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         },
         {
-          "title": "Lucerne",
-          "state": "Lucerne",
-          "district": "Lucerne",
-          "price": 50
+            "title": "USA raftingSpots Grand title Canyon",
+            "state": "Arizona",
+            "district": "Grand Canyon Village",
+            "price": 45,
+            "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+  
         }
-      ]
+    ]
+    
+   
     }
-  }
-}
+]}
