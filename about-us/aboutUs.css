@@ -1,0 +1,165 @@
+body {
+  background-color: #f9f9f9;
+  margin: 5px 5%;
+}
+body #header {
+  margin-bottom: 3rem;
+  padding: 0 50px;
+  background-color: #f9f9f9;
+}
+body #header #topbar {
+  width: 100%;
+  height: 15px;
+  display: inline-flex;
+  border-top: 1px solid #bcbcbc;
+}
+body #header #topbar .bar:nth-child(1) {
+  border-left: none;
+  width: 47%;
+}
+body #header #topbar .bar {
+  width: 13%;
+  border-left: 1px solid #bcbcbc;
+}
+body #header #navBar {
+  display: flex;
+}
+body #header #navBar #logo {
+  width: 48%;
+  font-size: 50px;
+}
+body #header #navBar #navBarlist {
+  list-style: none;
+  width: 40%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 25px;
+  row-gap: 10px;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-family: "Afacad", sans-serif;
+}
+body #header #navBar #navBarlist > p {
+  height: 20px;
+  margin: 0;
+}
+body #header #navBar #navBarlist > a {
+  text-decoration: none;
+  color: black;
+}
+body #header #navBar #navBarlist > a p {
+  height: 20px;
+  margin: 0;
+}
+body #header #navBar #navBarlist .bold {
+  font-weight: 700;
+}
+body #header #navBar #contactUS {
+  padding-top: 20px;
+  font-family: "Afacad", sans-serif;
+}
+body #about-us-container {
+  width: 83%;
+  margin: auto;
+  padding: 1.2rem 3.2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  background-color: white;
+  border-radius: 1.5rem;
+  font-family: "Afacad", sans-serif;
+}
+body #about-us-container > h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+body #about-us-container > p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+body #footer {
+  margin-top: 3rem;
+  background-color: #f9f9f9;
+}
+body #footer #footer1 {
+  font-family: "Afacad", sans-serif;
+  padding: 0 30px;
+  display: flex;
+  height: 150px;
+  align-items: center;
+}
+body #footer #footer1 div {
+  padding: 20px;
+  font-size: 30px;
+  width: 25%;
+}
+body #footer #footer1 #socials {
+  width: 25%;
+}
+body #footer #footer1 #socials a {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+body #footer #footer1 #socials a img {
+  width: 25px;
+  margin: 25%;
+}
+body #footer #footer1 #emailInput {
+  height: 40px;
+  width: 250px;
+  border-radius: 20px;
+  border-style: none;
+  padding-left: 10px;
+}
+body #footer #footer1 .material-symbols-outlined {
+  background-color: black;
+  color: white;
+  height: 25px;
+  width: 25px;
+  padding: 10px;
+  position: absolute;
+  margin-left: -44px;
+  border-radius: 50%;
+}
+body #footer hr {
+  width: 90%;
+}
+body #footer #footer2 {
+  font-family: "Afacad", sans-serif;
+  display: flex;
+  padding: 0 50px;
+}
+body #footer #footer2 #desc {
+  width: 40%;
+}
+body #footer #footer2 #desc p {
+  width: 200px;
+}
+body #footer #footer2 #contact {
+  width: 30%;
+}
+body #footer #footer2 #company {
+  width: 15%;
+}
+body #footer #footer2 #resource {
+  width: 15%;
+}
+body #footer #footer3 {
+  font-family: "Afacad", sans-serif;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  padding: 0 50px;
+}
+body #footer #footer3 #copyright {
+  width: 50%;
+}
+body #footer #footer3 #supportePayments {
+  display: flex;
+}
+body #footer #footer3 img {
+  width: 120px;
+}/*# sourceMappingURL=aboutUs.css.map */

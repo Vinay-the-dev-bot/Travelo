@@ -48,22 +48,32 @@
             <div id="contactUS">CONTACT US</div>
         </nav>
     </div>
+<!----enter people details part by Saumya-->
+<div>
+    <h1>Enter Traveller's Details</h1>
+    <label>Enter No. of people</label>
+    <input type="text" placeholder="Enter No. of people"/>
+    <!----creating cards-->
+     <div id="noppl">
+       <form id="myForm">
+          <label>Enter Name:- </label><input type="text" placeholder="Enter Name"> <button id="del" onclick="delbtn">delete</button>  <br>
+          <label>Select Gender:- </label>
+          <input type="radio" id="contactChoice2" name="contact" value="male" />
+          <label for="contactChoice2">Male</label>
+    
+          <input type="radio" id="contactChoice3" name="contact" value="female" />
+          <label for="contactChoice3">Female</label><br>
+          <label>Enter age:-</label><input type="number" id="age">
+       </form>
+        
+     </div>
+     <input type="checkbox"><label><b>T&C Apply</b> </label><br>
+  <button id="add">Add+</button> <button><a  
+     href="../paymentcard/payment.html" id="btn1">Continue</a> </button>
+</div>
 
 
-    <div id="about-us-container">
-
-        <h2>About Us</h2>
-        <p>Last revised on 14 December 2023</p>
-        <p>Travelo is one of the fastest growing online travel portals in Asia, offering travellers an extensive
-            selection of hotels, activities and travel services to meet every budget and activities of every kind at
-            competitive rates. With over hundreds of thousands of hotel partners worldwide and a comprehensive offering
-            of flight inventory made available on the website, travellers can book everything they need for a holiday -
-            rooms to meet every budget, activities of every kind and travel services to complement.
-        </p>
-        <p>Travelo, Inc. is a registered Seller of Travel in the State of Washington USA, Licence No. 601975803</p>
-        <p>Travelo, Inc. is part of the Travelo Group of companies. </p>
-
-    </div>
+   
 
 
     <div id="footer">
@@ -124,6 +134,7 @@
             <img src="../byte-harmony-2098/Assets/pics/payoneerLogo.png" alt="" />
         </div>
     </div>
+    <script src="contact.js"></script>
 </body>
 <script src="index.js"></script>
 
