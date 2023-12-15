@@ -26,6 +26,7 @@
       background-color: black;
       color: white;
       font-weight: 600;
+      cursor: pointer;
     }
     p {
       display: flex;
@@ -90,13 +91,13 @@
     text-align: center;
     font-size: 3.8rem;
     font-weight: 700;
-   
+
     font-family: 'Rethink Sans', sans-serif;
   }
   > .Discover-the-touch-imgs {
     display: flex;
     align-items: center;
-    
+
     justify-content: center;
     gap: 1.5rem;
     margin-top: 1rem;
