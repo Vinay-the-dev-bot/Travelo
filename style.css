@@ -149,7 +149,7 @@ body #footer #footer3 #supportePayments {
 }
 body #footer #footer3 img {
   width: 120px;
-}
+} 
 body #searchForm {
   display: flex;
   flex-direction: column;
@@ -316,7 +316,7 @@ body #searchForm #paginationButtons #buttons {
 body #searchForm #paginationButtons #buttons button {
   width: 60px;
   height: 30px;
-}
+} 
 
 #services h1 {
   text-align: center;

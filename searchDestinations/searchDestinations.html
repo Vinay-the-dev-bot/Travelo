@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="searchDestinations.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -56,60 +56,34 @@
         </div>
       </div>
       <div id="searchCriteria">
-        <div id="selectBy">
+        <div id="selectByCountry">
           <select name="county" id="selectCountry">
-            <option selected>Choose A Country</option>
+            <option value="">Choose A Country</option>
             <option value="India">India</option>
-            <option value=" ">U.S.A</option>
-            <option value=" ">South Africa</option>
-            <option value=" ">Indonasia</option>
+            <option value="USA">U.S.A</option>
+            <option value="South Africa">South Africa</option>
+            <option value="Indonasia">Indonasia</option>
           </select>
         </div>
-        <div id="selectEvent">
-          <select name="event" id="event">
-            <option selected>Choose A Event</option>
-            <option value="Trekking">Trekking</option>
-            <option value="Rafting">Rafting</option>
-            <option value="Skydiving">Skydiving</option>
+        <div id="selectByEvent">
+          <select name="event" id="selectEvent">
+            <option value="" selected>Choose A Sport</option>
+            <option value="trekkingSpots">Trekking</option>
+            <option value="raftingSpots">Rafting</option>
+            <option value="skyDivingSpots">Skydiving</option>
           </select>
         </div>
       </div>
       <div id="searchInp">
-        <input type="search" name="county" id="inputCountry" />
+        <input
+          type="search"
+          name="county"
+          id="inputCountryOrSport"
+          placeholder="Search for a conuntry or a sport.."
+        />
         <button id="search">SEARCH</button>
       </div>
-      <div id="searchResults">
-        <!-- <div class="card">
-          <img
-            src="https://harstuff-travel.org/wp-content/uploads/2019/03/LRM_EXPORT_929102018503574_20190214_142502283.jpeg"
-            alt="Trekking"
-          />
-          <div class="info">
-            <p>Title</p>
-            <p>Location</p>
-            <p>Description</p>
-            <div>
-              <input type="date" name="eventDate" class="eventDate" />
-              <button>Book Now!!</button>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            src="https://harstuff-travel.org/wp-content/uploads/2019/03/LRM_EXPORT_929102018503574_20190214_142502283.jpeg"
-            alt="Trekking"
-          />
-          <div class="info">
-            <p>Title</p>
-            <p>Location</p>
-            <p>Description</p>
-            <div>
-              <input type="date" name="eventDate" class="eventDate" />
-              <button>Book Now!!</button>
-            </div>
-          </div>
-        </div> -->
-      </div>
+      <div id="searchResults"></div>
       <div id="paginationButtons">
         <div id="buttons">
           <button>1</button>
@@ -190,5 +164,36 @@
       </div>
     </div>
   </body>
-  <script src="search.js"></script>
+  <script src="searchDestinations.js"></script>
 </html>
+
+<!-- <div class="card">
+          <img
+            src="https://harstuff-travel.org/wp-content/uploads/2019/03/LRM_EXPORT_929102018503574_20190214_142502283.jpeg"
+            alt="Trekking"
+          />
+          <div class="info">
+            <p>Title</p>
+            <p>Location</p>
+            <p>Description</p>
+            <div>
+              <input type="date" name="eventDate" class="eventDate" />
+              <button>Book Now!!</button>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://harstuff-travel.org/wp-content/uploads/2019/03/LRM_EXPORT_929102018503574_20190214_142502283.jpeg"
+            alt="Trekking"
+          />
+          <div class="info">
+            <p>Title</p>
+            <p>Location</p>
+            <p>Description</p>
+            <div>
+              <input type="date" name="eventDate" class="eventDate" />
+              <button>Book Now!!</button>
+            </div>
+          </div>
+        </div> -->

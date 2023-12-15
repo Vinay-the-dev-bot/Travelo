@@ -1,0 +1,30 @@
+button {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+        rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+    color: #36395a;
+    cursor: pointer;
+    font-family: "Afacad", sans-serif;
+    height: 48px;
+    padding: 0 40px;
+    transition: box-shadow 0.15s, transform 0.15s;
+    font-size: 25px;
+}
+
+button {
+    box-shadow: #d6d6e7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+        rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+}
+
+button:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+        rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+button:active {
+    box-shadow: #d6d6e7 0 3px 7px inset;
+    transform: translateY(2px);
+}
