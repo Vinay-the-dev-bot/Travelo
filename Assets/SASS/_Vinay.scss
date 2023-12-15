@@ -1,4 +1,3 @@
-
 body {
   margin: 5px 5%;
   #header {
@@ -52,9 +51,9 @@ body {
             margin: 0;
           }
         }
-        .bold{
+        .bold {
           font-weight: 700;
-       }
+        }
       }
 
       #contactUS {
@@ -110,9 +109,9 @@ body {
       }
     }
     hr {
-      width: 90%; 
-   }
-   #footer2{
+      width: 90%;
+    }
+    #footer2 {
       font-family: 'Afacad', sans-serif;
       display: flex;
       padding: 0 50px;
@@ -127,11 +126,20 @@ body {
       }
       #company {
         width: 15%;
+        > a {
+          text-decoration: none;
+          color: black;
+          p {
+            height: 20px;
+            margin: 0;
+          }
+        }
       }
       #resource {
         width: 15%;
-      }  
-    #footer3 { 
+      }
+    }
+    #footer3 {
       font-family: 'Afacad', sans-serif;
       height: 50px;
       align-items: center;
@@ -147,178 +155,190 @@ body {
         width: 120px;
       }
     }
-  } 
-  #searchForm{
-   display: flex;
-   flex-direction: column;
-   #popular{ 
-      height: 150px; 
-      display: flex;padding: 0 50px;
-      p {
-            font-family: 'Afacad', sans-serif;
-            font-size: 25px; 
-            padding:  30px 15px 0 0  ;  
-         }
-      #countries{ 
-         margin: auto;
-         gap: 40px;
-         display: flex;
-         justify-content: space-around;
-         button{ 
-            background-color: #F9f9f9;
-            border-radius: 10px; 
-            border: none;
-            box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-            color: #36395A;
-            cursor: pointer;
-            font-family: 'Afacad', sans-serif;
-            height: 48px;
-            padding: 0 40px; 
-            transition: box-shadow .15s, transform .15s; 
-            font-size: 25px;
-         }
-         button {
-               box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-         }
-
-         button:hover {
-               box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
-               transform: translateY(-2px);
-         }
-
-         button:active {
-               box-shadow: #D6D6E7 0 3px 7px inset;
-               transform: translateY(2px);
-         }
-   }
   }
-  #searchCriteria {
-   display: flex;
-   height: 150px;
-   align-items: center;
-   background-color: #F9f9f9;
-   // gap: 50px; 
-   #selectBy,#selectEvent{
-      display: block;
-      margin: auto;
-      select{
-         font-family: 'Afacad', sans-serif;
-         border-radius: 50px;
-         padding: 0 40px;
-         height: 40px;
-         font-size: 25px;
-      }
-   }
-   }
 
-#searchInp {
-   padding: 20px 50px  ;
-   margin: 25px ;
-   display: flex;
-   gap: 200px;
-   #inputCountry{ 
-      width: 40%;
-      height: 40px;
-   }
-button{
-   display: block; 
-   width: 30%;
-   height: 40px;
-   margin: auto;
-   cursor: pointer;
-   border-style: none;
-   border-radius: 15px;
-   background-color: #00DA83;
-}
- button {
-    box-shadow: #00DA83 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #00DA83 0 -3px 0 inset;
- }
-
- button:hover {
-    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #00DA83 0 -3px 0 inset;
-    transform: translateY(-2px);
- }
-
- button:active {
-    box-shadow: #00DA83 0 3px 7px inset;
-    transform: translateY(2px);
- }
-}
-
-#searchResults {
-   font-family: "Afacad", sans-serif;
-   padding: 0 50px 50px 50px ; 
-   margin: auto; 
-   width: 100%;
-   .card{
-      margin: 20px 0;
-      padding: 10px;
-      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-      border-radius: 25px; 
-      height: 350px;
-      width: 90%;
+  #searchForm {
+    display: flex;
+    flex-direction: column;
+    #popular {
+      height: 150px;
       display: flex;
-      img{
-         border-radius: 25px;
-         width: 50%;
-         height: 350px;
+      padding: 0 50px;
+      p {
+        font-family: 'Afacad', sans-serif;
+        font-size: 25px;
+        padding: 30px 15px 0 0;
       }
-      .info{
-         padding: 20px;
-         display: flex;
-         flex-direction: column;
-         div{
+      #countries {
+        margin: auto;
+        gap: 40px;
+        display: flex;
+        justify-content: space-around;
+        button {
+          background-color: #f9f9f9;
+          border-radius: 10px;
+          border: none;
+          box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+            rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+          color: #36395a;
+          cursor: pointer;
+          font-family: 'Afacad', sans-serif;
+          height: 48px;
+          padding: 0 40px;
+          transition: box-shadow 0.15s, transform 0.15s;
+          font-size: 25px;
+        }
+        button {
+          box-shadow: #d6d6e7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+            rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+        }
+
+        button:hover {
+          box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+            rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+          transform: translateY(-2px);
+        }
+
+        button:active {
+          box-shadow: #d6d6e7 0 3px 7px inset;
+          transform: translateY(2px);
+        }
+      }
+    }
+    #searchCriteria {
+      display: flex;
+      height: 150px;
+      align-items: center;
+      background-color: #f9f9f9;
+      // gap: 50px;
+      #selectBy,
+      #selectEvent {
+        display: block;
+        margin: auto;
+        select {
+          font-family: 'Afacad', sans-serif;
+          border-radius: 50px;
+          padding: 0 40px;
+          height: 40px;
+          font-size: 25px;
+        }
+      }
+    }
+
+    #searchInp {
+      padding: 20px 50px;
+      margin: 25px;
+      display: flex;
+      gap: 200px;
+      #inputCountry {
+        width: 40%;
+        height: 40px;
+      }
+      button {
+        display: block;
+        width: 30%;
+        height: 40px;
+        margin: auto;
+        cursor: pointer;
+        border-style: none;
+        border-radius: 15px;
+        background-color: #00da83;
+      }
+      button {
+        box-shadow: #00da83 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px,
+          rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #00da83 0 -3px 0 inset;
+      }
+
+      button:hover {
+        box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+          rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #00da83 0 -3px 0 inset;
+        transform: translateY(-2px);
+      }
+
+      button:active {
+        box-shadow: #00da83 0 3px 7px inset;
+        transform: translateY(2px);
+      }
+    }
+
+    #searchResults {
+      font-family: 'Afacad', sans-serif;
+      padding: 0 50px 50px 50px;
+      margin: auto;
+      width: 100%;
+      .card {
+        margin: 20px 0;
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+          rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        border-radius: 25px;
+        height: 350px;
+        width: 90%;
+        display: flex;
+        img {
+          border-radius: 25px;
+          width: 50%;
+          height: 350px;
+        }
+        .info {
+          padding: 20px;
+          display: flex;
+          flex-direction: column;
+          div {
             display: flex;
             gap: 50px;
-            input{
-               border-radius: 50px;
-               padding: 0 40px;
-               height: 40px;
-               font-size: 25px;
-               border-style: none;
-            }
-            button{
-               display: block;
-               font-family: "Afacad", sans-serif;
-               width: 30%;
-               height: 40px;
-               margin: auto;
-               cursor: pointer;
-               border-style: none;
-               border-radius: 15px;
-               background-color: #00DA83;
+            input {
+              border-radius: 50px;
+              padding: 0 40px;
+              height: 40px;
+              font-size: 25px;
+              border-style: none;
             }
             button {
-               box-shadow: #00DA83 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #00DA83 0 -3px 0 inset;
+              display: block;
+              font-family: 'Afacad', sans-serif;
+              width: 30%;
+              height: 40px;
+              margin: auto;
+              cursor: pointer;
+              border-style: none;
+              border-radius: 15px;
+              background-color: #00da83;
+            }
+            button {
+              box-shadow: #00da83 0 0 0 1.5px inset,
+                rgba(45, 35, 66, 0.4) 0 2px 4px,
+                rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #00da83 0 -3px 0 inset;
             }
 
             button:hover {
-               box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #00DA83 0 -3px 0 inset;
-               transform: translateY(-2px);
+              box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
+                rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #00da83 0 -3px 0 inset;
+              transform: translateY(-2px);
             }
 
             button:active {
-               box-shadow: #00DA83 0 3px 7px inset;
-               transform: translateY(2px);
+              box-shadow: #00da83 0 3px 7px inset;
+              transform: translateY(2px);
             }
-         }
+          }
+        }
       }
-   }
-}
-#paginationButtons{ 
-   width: 100%;
-   display: flex;
-   justify-self: center; 
-   #buttons{ 
+    }
+    #paginationButtons {
+      width: 100%;
       display: flex;
       justify-self: center;
-      gap: 5px;
-      margin: auto; 
-      button {
-            width: 60px;
-            height: 30px;
-         }
-   }
+      #buttons {
+        display: flex;
+        justify-self: center;
+        gap: 5px;
+        margin: auto;
+        button {
+          width: 60px;
+          height: 30px;
+        }
+      }
+    }
+  }
 }
-}
-} 
