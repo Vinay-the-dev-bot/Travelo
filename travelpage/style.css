@@ -81,7 +81,6 @@ body .maindiv .checkbox-container label {
 body .maindiv #noppl {
   display: block;
   margin: auto;
-  border: 1px solid;
   padding: 80px 250px 10px 250px;
   font-size: 1.4em;
 }
