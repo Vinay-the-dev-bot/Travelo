@@ -183,7 +183,7 @@ body {
   }
 
   .submit-button {
-    margin: 20px auto; /* Updated to center the button horizontally */
+    margin: 40px auto; 
     padding: 10px 20px;
     font-size: 1em;
     background-color: #2ecc71;
@@ -193,15 +193,25 @@ body {
     cursor: pointer;
     outline: none;
     display: block; 
+    font-family: 'Afacad', sans-serif;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
   }
 
   .submit-button:hover {
     background-color: #27ae60;
+   
   }
   #otpenter{
         margin-left:50px;
         font-family: 'Afacad', sans-serif;
         font-size: larger;
   }
+
  
   /*# sourceMappingURL=style.css.map */
+#sucess{
+  text-decoration: none;
+  color:white;
+  font-size: 1em;
+}

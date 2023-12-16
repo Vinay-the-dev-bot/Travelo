@@ -53,8 +53,17 @@
 <form>
    <label>Enter Name</label> <input type="text" id="name" placeholder="Enter name on Card"/><br>
    <label>Enter Card Number</label> <input type="number" id="cardNo" placeholder="Enter Card Number" /><br>
-   <label>Enter CVV</label> <input type="number" id="cardCvv" placeholder="CVV"/><br>
-   <label>Expiry Date</label> <input type="text" id="cardyear" placeholder="MM/YYYY"/><br>
+   <div id="flexbox">
+    <div class="input-group">
+        <label for="cardCvv">Enter CVV</label>
+        <input type="number" id="cardCvv" placeholder="CVV"/>
+    </div>
+    <div class="input-group">
+        <label for="cardyear">Expiry Date</label>
+        <input type="text" id="cardyear" placeholder="MM/YYYY"/>
+    </div>
+</div>
+
     <input type="submit" value="Confirm" />
   </form>
 

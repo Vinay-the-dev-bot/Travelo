@@ -65,7 +65,7 @@ body {
       }
     }
   
-    div {
+    .maindiv {
        
       
         h1 {
@@ -76,69 +76,82 @@ body {
           font-family: 'Afacad', sans-serif;
         }
       
+       //chechbox style
+       .checkbox-container {
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        font-family: 'Afacad', sans-serif;
+        input[type="checkbox"] {
+            margin-right: 20px; 
+            transform: scale(1.5); 
+        }
         label {
-            font-family: 'Afacad', sans-serif;
-        //   margin-bottom: 10px;
-         margin-right:20px;
+            font-size: 1.2em; 
         }
-      
-        input[type="text"],
-        input[type="number"] {
-          width: 40%;
-          padding: 8px;
-          margin-bottom: 15px;
-          box-sizing: border-box;
-        }
+    }
       
         #noppl {
-            form {
+          display:block;
+          margin:auto;
+          border:1px solid ;
+          padding:80px 250px 10px 250px;
+          font-size: 1.4em; 
+            .myForm {
+              border-radius: 10px; 
+              box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+              font-family: 'Afacad', sans-serif;
+              margin-bottom: 100px;
+              padding:40px;
                 label {
-                 // display: block;
                   margin-bottom: 10px;
                 }
             
                 
                 input[type="number"]{
-                    margin-bottom: 10px;
-    margin-right: 32px;
-    margin-left: 56px;
+                    margin-bottom: 20px;
+                    margin-right: 32px;
+                    margin-left: 59px;
+                    padding: 5px; 
+                    border-radius: 5px;
+                    font-size: 0.8em; 
+        
                 }
                 input[type="text"]{
-                    margin-bottom: 10px;
+                    margin-bottom: 20px;
                     margin-right: 32px;
                     margin-left: 39px;
+                    padding: 5px; 
+                    border-radius: 5px;
+                     font-size: 0.8em; 
+        
                 }
                 input[type="radio"]{
-                    margin-bottom: 10px;
-                    margin-right: 32px;
-                    margin-left: 25px;  
+                    margin-bottom: 30px;
+                    margin-right: 5px;
+                    margin-left: 25px; 
+                    // padding: 4px;  
+                    border-radius: 5px;
+        // font-size: 5em; 
+        transform: scale(1.5);
+        
                 }
-                input[type="checkbox"] {
-                  margin-bottom: 10px;
-                  margin-right: 20px;
-                }
-                // #age{
-                //     margin-left:57px;
-                // }
-                input[type="radio"],
-                input[type="checkbox"] {
-                  margin-right: 5px;
-                  margin-top: 40px;
-                }
-              }
-        }
-      
+            }
+          }
         button {
-          padding: 10px 20px;
-          font-size: 1em;
+          padding: 5px 10px;
+          font-size: 0.8em;
           background-color: #3498db; 
           color: #fff; 
           border: none;
           border-radius: 5px;
           cursor: pointer;
-          margin-top:50px;
+          box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+                    rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+                    transition: box-shadow 0.15s, transform 0.15s;
+         // margin-top:5px;
           text-align: center;
-          
+          font-family: 'Afacad', sans-serif;
           a{
             text-decoration: none;
             color: #fff; 
@@ -148,9 +161,16 @@ body {
         }
         #add{
             background-color: green;
+            font-size: 1.3rem;
+            margin-top: 60px;
           }
-          #del{
+          .del{
             background-color: rgb(238, 25, 25);
+          }
+          #btn1{
+           // background-color: rgb(191, 191, 243);
+            font-size: 1.3rem;
+            margin-top: 60px;
           }
       }
       
@@ -243,4 +263,5 @@ body {
       }
     }
   }
+
   

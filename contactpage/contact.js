@@ -1,93 +1,103 @@
-var del=document.getElementById("del");
-let divadd=document.getElementById("noppl");
-var add=document.getElementById("add");
-add.addEventListener("click",()=>{
-    divadd.append(createform());
-})
-function createform(){
-  
-
-    // Create form element
-    var form = createInputElement("form", { id: "myForm" });
-
-    // Create label for "Enter Name"
-    var nameLabel = createInputElement("label", { innerHTML: "Enter Name:-" });
-
-    // Create input for "Enter Name"
-    var nameInput = createInputElement("input", { type: "text", placeholder: "Enter your Name" });
-
-    // Create delete button
-    var deleteButton = createInputElement("button", { id: "del", innerHTML: "Delete", onclick: delbtn });
-    // Create line break
-    var lineBreak = document.createElement("br");
-
-    // Append elements to form
-    form.appendChild(nameLabel);
-    form.appendChild(nameInput);
-    form.appendChild(deleteButton);
-    form.appendChild(lineBreak);
-
-    // Create label for "Select Gender"
-    var genderLabel = createInputElement("label", { innerHTML: "Select Gender:-" });
-
-    // Create radio button for "Male"
-    var maleRadio = createInputElement("input", { type: "radio", id: "contactChoice2", name: "contact", value: "male" });
-    var maleLabel = createInputElement("label", { innerHTML: "Male", for: "contactChoice2" });
-
-    // Create radio button for "Female"
-    var femaleRadio = createInputElement("input", { type: "radio", id: "contactChoice3", name: "contact", value: "female" });
-    var femaleLabel = createInputElement("label", { innerHTML: "Female", for: "contactChoice3" });
-
-    // Create line break
-    var lineBreak2 = document.createElement("br");
-
-    // Append elements to form
-    form.appendChild(genderLabel);
-    form.appendChild(maleRadio);
-    form.appendChild(maleLabel);
-    form.appendChild(femaleRadio);
-    form.appendChild(femaleLabel);
-    form.appendChild(lineBreak2);
-
-    // Create label for "Enter Age"
-    var ageLabel = createInputElement("label", { innerHTML: "Enter Age:-" });
-
-    // Create input for "Enter Age"
-    var ageInput = createInputElement("input", { type: "number" });
-
-    // Append elements to form
-    form.appendChild(ageLabel);
-    form.appendChild(ageInput);
-
-    // Append form to formContainer
-    
-    return form;
-  }
-  function createInputElement(type, attributes) {
-    var element = document.createElement(type);
-    for (var key in attributes) {
-      element[key] = attributes[key];
-    }
-    return element;
-  }
-
-
-del.addEventListener("click",()=>{
-
-  var form = document.getElementById("myForm");
-
-  // Remove all child elements (form elements)
-  while (form.firstChild) {
-    form.removeChild(form.firstChild);
-  }
+document.getElementById("add").addEventListener("click", () => {
+  var newForm = createForm();
+  document.getElementById("noppl").appendChild(newForm);
 });
 
-function delbtn(){
-    var form = this.parentNode;
-  
-    // Remove all child elements (form elements)
-    while (form.firstChild) {
-      form.removeChild(form.firstChild);
-    }
+document.getElementById("btn1").addEventListener("click", () => {
+  saveDetails();
+});
+
+function createForm() {
+  var form = document.createElement("form");
+form.className="myForm";
+  var nameLabel = document.createElement("label");
+  nameLabel.textContent = "Enter Name:- ";
+  var nameInput = document.createElement("input");
+  nameInput.type = "text";
+  nameInput.placeholder = "Enter Name";
+  form.appendChild(nameLabel);
+  form.appendChild(nameInput);
+  form.appendChild(document.createElement("br"));
+
+  var genderLabel = document.createElement("label");
+  genderLabel.textContent = "Select Gender:- ";
+  var maleRadio = document.createElement("input");
+  maleRadio.type = "radio";
+  maleRadio.id = "c1";
+  maleRadio.name = "contact";
+  maleRadio.value = "male";
+  var maleLabel = document.createElement("label");
+  maleLabel.textContent = "Male";
+  var femaleRadio = document.createElement("input");
+  femaleRadio.type = "radio";
+  femaleRadio.id = "c3";
+  femaleRadio.name = "contact";
+  femaleRadio.value = "female";
+  var femaleLabel = document.createElement("label");
+  femaleLabel.textContent = "Female";
+  form.appendChild(genderLabel);
+  form.appendChild(maleRadio);
+  form.appendChild(maleLabel);
+  form.appendChild(femaleRadio);
+  form.appendChild(femaleLabel);
+  form.appendChild(document.createElement("br"));
+
+  var ageLabel = document.createElement("label");
+  ageLabel.textContent = "Enter Age:- ";
+  var ageInput = document.createElement("input");
+  ageInput.type = "number";
+  form.appendChild(ageLabel);
+  form.appendChild(ageInput);
+
+  var deleteButton = document.createElement("button");
+  deleteButton.className = "del";
+  deleteButton.textContent = "Delete";
+  deleteButton.addEventListener("click", function () {
+      deleteForm(form);
+  });
+  form.appendChild(deleteButton);
+
+  return form;
+}
+
+function deleteForm(form) {
+  form.remove();
+  updateLocalStorage();
+}
+
+function updateLocalStorage() {
+  var formsData = [];
+  var formElements = document.querySelectorAll('#noppl form');
+
+  formElements.forEach(function (form) {
+      var formData = {
+          name: form.querySelector('input[placeholder="Enter Name"]').value,
+          gender: form.querySelector('input[name="contact"]:checked').value,
+          age: form.querySelector('input[type="number"]').value
+      };
+      formsData.push(formData);
+  });
+
+  localStorage.setItem('formDetails', JSON.stringify(formsData));
+}
+
+function saveDetails() {
+  updateLocalStorage();
+  // Additional logic for continuing to the next page
+  window.location.href = "../paymentcard/payment.html";
+}
+
+// Load existing form data from localStorage if any
+window.addEventListener('load', function () {
+  var storedFormsData = localStorage.getItem('formDetails');
+  if (storedFormsData) {
+      var formsData = JSON.parse(storedFormsData);
+      formsData.forEach(function (formData) {
+          var newForm = createForm();
+          newForm.querySelector('input[placeholder="Enter Name"]').value = formData.name;
+          newForm.querySelector('input[name="contact"][value="' + formData.gender + '"]').checked = true;
+          newForm.querySelector('input[type="number"]').value = formData.age;
+          document.getElementById("noppl").appendChild(newForm);
+      });
   }
-  
+});
