@@ -1,157 +1,509 @@
-{ "countries" : [{
-  "id": 1,
-  "country": "United States", 
-  "trekkingSpots": [
+{
+    "countries": [
       {
-          "title": "USA TREKKING Appalachian Trail",
-          "state": "North Carolina",
-          "district": "Great Smoky Mountains",
-          "price": 40,
-           "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        "id": 1,
+        "country": "United States",
+        "trekkingSpots": [
+          {
+            "title": "GLACIER NATIONAL PARK",
+            "state": "Montana",
+            "district": "Billings",
+            "price": 40,
+            "image": "https://media.istockphoto.com/id/182145979/photo/glacier-hikers.jpg?s=612x612&w=0&k=20&c=OdOi7oZ_kr8X0a-SnDsOuVXQQ6kP7QXSkw7frk7G788="
+          },
+          {
+            "title": "YOSEMITE NATIONAL PARK",
+            "state": "California",
+            "district": "Sacramento",
+            "price": 50,
+            "image": "https://www.citrusmilo.com/yosemite2017/joebraun_halfdome17.jpg"
+          },
+          {
+            "title": "GRAND CANYON",
+            "state": "Arizona",
+            "district": "3 Coconino County",
+            "price": 45,
+            "image": "https://57hours.com/wp-content/uploads/2019/08/Grand-Canyon-Hiking.jpg"
+          },
+          {
+            "title": "ZION NATIONAL PARK",
+            "state": "Utah",
+            "district": "Adams J. Stuart",
+            "price": 45,
+            "image": "https://media.istockphoto.com/id/187448023/photo/angels-landing-zion-national-park.jpg?s=612x612&w=0&k=20&c=qhw4_8zvKNcqBKE9XcaumJpQafciGdGJyFmUI2INzzc="
+          },
+          {
+            "title": "ROCKY MOUNTAIN NATIONAL PARK",
+            "state": "Colorado",
+            "district": "Larimer County",
+            "price": 50,
+            "image": "https://images.pexels.com/photos/2539363/pexels-photo-2539363.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "SMOKY MOUNTAINS NATIONAL PARK",
+            "state": "Tennessee",
+            "district": "Gatlinburg",
+            "price": 55,
+            "image": "https://images.pexels.com/photos/2609459/pexels-photo-2609459.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "YELLOWSTONE NATIONAL PARK",
+            "state": "Wyoming",
+            "district": "Park County",
+            "price": 60,
+            "image": "https://images.pexels.com/photos/554609/pexels-photo-554609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "ACADIA NATIONAL PARK",
+            "state": "Maine",
+            "district": "Bar Harbor",
+            "price": 65,
+            "image": "https://images.pexels.com/photos/2450296/pexels-photo-2450296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "MOUNT RAINIER NATIONAL PARK",
+            "state": "Washington",
+            "district": "Pierce County",
+            "price": 70,
+            "image": "https://images.pexels.com/photos/914128/pexels-photo-914128.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        ],
+        "skyDivingSpots": [
+          {
+            "title": "WAIALUA",
+            "state": "Hawaii",
+            "price": 40,
+            "District": "Honolulu",
+            "image": "https://d1li3p7kp8c46b.cloudfront.net/6000/5449.4756.144a206147.jpg"
+          },
+          {
+            "title": "ARIZONA SKY DIVE",
+            "state": "Arizona",
+            "District": "5 Graham County",
+            "price": 50,
+            "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/4c/83/61/tandem-jumps-are-thrilling.jpg?w=1200&h=-1&s=1"
+          },
+          {
+            "title": "ALASKA SKY DIVE CENTER",
+            "state": "Alaska",
+            "District": "Anchorage School",
+            "price": 45,
+            "image": "https://media.istockphoto.com/id/1295879346/photo/image-of-a-woman-parachutist-in-casual-clothing-smiling.jpg?s=612x612&w=0&k=20&c=4rJOdjlqcpzOwJhq_XgXmh_e2NxPZfKDLM_6Ew3Z1IE="
+          },
+          {
+            "title": "MIAMI SKYDIVING CENTER",
+            "state": "Florida",
+            "District": "Miami-Dade County",
+            "price": 55,
+            "image": "https://cdn.ap1.fly4.me/public/images/miami-skydiving-center.jpg"
+          },
+          {
+            "title": "GRAND TETON SKYDIVING",
+            "state": "Wyoming",
+            "District": "Jackson Hole",
+            "price": 60,
+            "image": "https://images.pexels.com/photos/11124986/pexels-photo-11124986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "LAS VEGAS EXTREME JUMPS",
+            "state": "Nevada",
+            "District": "Las Vegas",
+            "price": 65,
+            "image": "https://images.pexels.com/photos/5943844/pexels-photo-5943844.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "CAPE COD AIR ADVENTURE",
+            "state": "Massachusetts",
+            "District": "Cape Cod",
+            "price": 70,
+            "image": "https://images.pexels.com/photos/11124979/pexels-photo-11124979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "DENVER SKYHIGH THRILLS",
+            "state": "Colorado",
+            "District": "Denver",
+            "price": 75,
+            "image": "https://images.pexels.com/photos/37656/skydiving-jump-falling-parachuting-37656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        ],
+        "raftingSpots": [
+          {
+            "title": "GARDINER MONTANA",
+            "state": "Montana",
+            "district": "Tinker's Cemetery",
+            "price": 40,
+            "image": "https://yellowstoneraftzipline.com/wp-content/uploads/yellowstone-zip-and-dip-package.jpg"
+          },
+          {
+            "title": "TAOS NEW MEXICO",
+            "state": "New Mexico",
+            "district": "Taos County",
+            "price": 50,
+            "image": "https://losriosriverrunners.com/uploads/section_3_.JPG"
+          },
+          {
+            "title": "CONON CITY COLORADO",
+            "state": "Colorado",
+            "district": "Gore Canyon",
+            "price": 45,
+            "image": "https://royalgorgerafting.net/wp-content/uploads/2022/04/groups-hero-mobile.jpg"
+          },
+          {
+            "title": "KENAI RIVER",
+            "state": "Alaska",
+            "district": "Kenai Peninsula Borough",
+            "price": 55,
+            "image": "https://www.kenairiversidefishing.com/wp-content/uploads/2020/11/rafting-header.jpg"
+          },
+          {
+            "title": "WHITE SALMON RIVER ADVENTURE",
+            "state": "Washington",
+            "district": "White Salmon",
+            "price": 60,
+            "image": "https://images.pexels.com/photos/19442194/pexels-photo-19442194/free-photo-of-people-on-rafting-adventure.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "RIO GRANDE GORGE EXPLORER",
+            "state": "New Mexico",
+            "district": "Rio Arriba County",
+            "price": 65,
+            "image": "https://images.pexels.com/photos/2161563/pexels-photo-2161563.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "KERN RIVER WILD RUN",
+            "state": "California",
+            "district": "Kern County",
+            "price": 70,
+            "image": "https://images.pexels.com/photos/2348108/pexels-photo-2348108.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "OHIOPYLE STATE PARK RAFTING",
+            "state": "Pennsylvania",
+            "district": "Fayette County",
+            "price": 75,
+            "image": "https://images.pexels.com/photos/1615766/pexels-photo-1615766.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        ]
       },
       {
-          "title": "USA TREKKING  Yosemite National Park",
-          "state": "California",
-          "district": "Sierra Nevada",
-          "price": 50,
-           "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-      },
-      {
-          "title": "USA TREKKING  Grand Canyon",
-          "state": "Arizona",
-          "district": "Grand Canyon Village",
-          "price": 45,
-          "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-
-      }
-  ],
-  "skyDivingSpots": [
-      {
-          "title": "USA skyDivingSpots Appalachian skyDivingSpots Trail",
-          "state": "North Carolina",
-          "district": "Great Smoky Mountains",
-          "price": 40,
-           "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-      },
-      {
-          "title": "USA skyDivingSpots Yosemite National skyDivingSpots Park",
-          "state": "California",
-          "district": "Sierra Nevada",
-          "price": 50,
-           "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-      },
-      {
-          "title": "USA skyDivingSpots Grand skyDivingSpots Canyon",
-          "state": "Arizona",
-          "district": "Grand Canyon Village",
-          "price": 45,
-          "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-
-      }
-  ],
-    "raftingSpots": [
-      {
-          "title": "USA raftingSpots Appalachian title Trail",
-          "state": "North Carolina",
-          "district": "Great Smoky Mountains",
-          "price": 40,
-           "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-      },
-      {
-          "title": "USA raftingSpots Yosemite title National Park",
-          "state": "California",
-          "district": "Sierra Nevada",
-          "price": 50,
-           "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-      },
-      {
-          "title": "USA raftingSpots Grand title Canyon",
-          "state": "Arizona",
-          "district": "Grand Canyon Village",
-          "price": 45,
-          "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-
-      }
-  ]
-  
- 
-  },
-  {
-    "id": 2,
-    "country": "India", 
-    "trekkingSpots": [
-        {
-            "title": "India TREKKING Appalachian Trail",
-            "state": "North Carolina",
+        "id": 2,
+        "country": "India",
+        "trekkingSpots": [
+          {
+            "title": "MANALI",
+            "state": "Himanchal Pradesh",
+            "district": "Kullu",
+            "price": 40,
+            "image": "https://sparshresorts.com/wp-content/uploads/2023/04/Trekking-in-Manali-Sparsh-Resort-min.png"
+          },
+          {
+            "title": "LADDAKH",
+            "state": "Jammu and Kashmir",
+            "district": "Leh",
+            "price": 50,
+            "image": "https://www.shutterstock.com/image-photo/chadar-trek-the-frozen-zanskar-600nw-715794370.jpg"
+          },
+          {
+            "title": "MUNNAR",
+            "state": "Kerala",
+            "district": "Idukki",
+            "price": 45,
+            "image": "https://spicetreemunnar.com/wp-content/uploads/2022/10/Pothamedu-Viewpoint-1.jpg"
+          },
+          {
+            "title": "VALLEY OF FLOWERS",
+            "state": "Uttarakhand",
+            "district": "Chamoli",
+            "price": 55,
+            "image": "https://images.pexels.com/photos/554609/pexels-photo-554609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "SHILLONG PEAK",
+            "state": "Meghalaya",
+            "district": "East Khasi Hills",
+            "price": 60,
+            "image": "https://images.pexels.com/photos/5668668/pexels-photo-5668668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "KEDARNATH PEAK EXPEDITION",
+            "state": "Uttarakhand",
+            "district": "Rudraprayag",
+            "price": 50,
+            "image": "https://images.pexels.com/photos/714256/pexels-photo-714256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "HAR KI DUN VALLEY TREK",
+            "state": "Uttarakhand",
+            "district": "Uttarkashi",
+            "price": 55,
+            "image": "https://images.pexels.com/photos/2445656/pexels-photo-2445656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "GANGTOK HIMALAYAN TRAVERSE",
+            "state": "Sikkim",
+            "district": "East Sikkim",
+            "price": 65,
+            "image": "https://images.pexels.com/photos/5204296/pexels-photo-5204296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "ANNAPOORNA CIRCUIT TREK",
+            "state": "Himachal Pradesh",
+            "district": "Kullu",
+            "price": 70,
+            "image": "https://images.pexels.com/photos/3930029/pexels-photo-3930029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          }
+        ],
+        "skyDivingSpots": [
+          {
+            "title": "MYSORE",
+            "state": "Karnataka",
+            "district": "Chamarajanagar",
+            "price": 40,
+            "image": "https://media1.thrillophilia.com/filestore/fd1598lm0pvf3chjdhdrgo7e9464_shutterstock_398092246.jpg"
+          },
+          {
+            "title": "DEESA",
+            "state": "Gujarat",
+            "district": "Deesa",
+            "price": 50,
+            "image": "https://static.toiimg.com/photo/msid-92064394,width-96,height-65.cms"
+          },
+          {
+            "title": "PONDICHERRY",
+            "state": "Tamil Nadu",
+            "district": "Karaikal",
+            "price": 45,
+            "image": "https://res.cloudinary.com/chasset/f_webp/hbimages/activities/1528258374842-15.jpg"
+          },
+          {
+            "title": "ANDAMAN ISLANDS",
+            "state": "Andaman and Nicobar Islands",
+            "district": "Port Blair",
+            "price": 55,
+            "image": "https://www.clearholidays.com/hbimages/activities/images/skydiving.jpg"
+          }
+        ],
+        "raftingSpots": [
+          {
+            "title": "RISHIKESH",
+            "state": "Uttarakhand",
             "district": "Great Smoky Mountains",
             "price": 40,
-             "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "title": "India TREKKING  Yosemite National Park",
-            "state": "California",
-            "district": "Sierra Nevada",
-            "price": 50,
-             "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "title": "India TREKKING  Grand Canyon",
-            "state": "Arizona",
-            "district": "Grand Canyon Village",
-            "price": 45,
             "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-  
-        }
-    ],
-    "skyDivingSpots": [
-        {
-            "title": "India skyDivingSpots Appalachian skyDivingSpots Trail",
-            "state": "North Carolina",
-            "district": "Great Smoky Mountains",
-            "price": 40,
-             "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "title": "India skyDivingSpots Yosemite National skyDivingSpots Park",
-            "state": "California",
-            "district": "Sierra Nevada",
-            "price": 50,
-             "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "title": "India skyDivingSpots Grand skyDivingSpots Canyon",
-            "state": "Arizona",
-            "district": "Grand Canyon Village",
-            "price": 45,
-            "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-  
-        }
-    ],
-      "raftingSpots": [
-        {
-            "title": "India raftingSpots Appalachian title Trail",
-            "state": "North Carolina",
-            "district": "Great Smoky Mountains",
-            "price": 40,
-             "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "title": "India raftingSpots Yosemite title National Park",
-            "state": "California",
-            "district": "Sierra Nevada",
-            "price": 50,
-             "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "title": "India raftingSpots Grand title Canyon",
-            "state": "Arizona",
-            "district": "Grand Canyon Village",
-            "price": 45,
-            "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-  
-        }
+          },
+          {
+            "title": "TEESTA RIVER",
+            "state": "Sikkim",
+            "district": "North Sikkim",
+            "price": 60,
+            "image": "https://sikkimadventuretourism.com/images/adventure/main_river_rafting_826.jpg"
+          },
+          {
+            "title": "YAMUNA RIVER QUEST",
+            "state": "Haryana",
+            "district": "Yamunanagar",
+            "price": 55,
+            "image": "https://aquaterra.in/wp-content/uploads/2019/10/Brahmaputra-River-Rafting-Assam-31.jpg"
+          },
+          {
+            "title": "CHALISGAON RAPIDS EXPEDITION",
+            "state": "Maharashtra",
+            "district": "Jalgaon",
+            "price": 65,
+            "image": "https://raftinginthesmokies.com/wp-content/uploads/2018/08/IMG_2857.jpg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "country": "Australia",
+        "trekkingSpots": [
+          {
+            "title": "BLUE MOUNTAINS",
+            "state": "New South Wales",
+            "district": "Blue Mountains",
+            "price": 60,
+            "image": "https://images.squarespace-cdn.com/content/v1/596b2969d2b85786e6892853/1617189415716-5MV8UWCSI58B6HLJAMMB/6D2A4468.jpg?format=1500w"
+          },
+          {
+            "title": "KAKADU NATIONAL PARK",
+            "state": "Northern Territory",
+            "district": "Kakadu",
+            "price": 70,
+            "image": "https://mtsobek.imgix.net/2019/10/3140909hp_hero9_ozk_2880x1620.jpg?auto=format&ixlib=php-3.3.1"
+          },
+          {
+            "title": "GREAT OCEAN WALK",
+            "state": "Victoria",
+            "district": "Apollo Bay",
+            "price": 65,
+            "image": "https://media.timeout.com/images/105231618/750/562/image.jpg"
+          },
+          {
+            "title": "ROYAL NATIONAL PARK HIKE",
+            "state": "New South Wales",
+            "district": "Sydney",
+            "price": 55,
+            "image": "https://sitchu.com.au/media/drceikpb/figure-8-pools.jpg?mode=max&width=1400&rnd=132685557548230000"
+          }
+        ],
+        "skyDivingSpots": [
+          {
+            "title": "BYRON BAY SKYDIVING",
+            "state": "New South Wales",
+            "price": 80,
+            "District": "Byron Bay",
+            "image": "https://www.bookmestatic.net.nz/images/activities/2541_image1_skydive-deals-byron-bay.jpg"
+          },
+          {
+            "title": "GREAT BARRIER REEF SKYDIVE",
+            "state": "Queensland",
+            "District": "Great Barrier Reef",
+            "price": 90,
+            "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/09/1f/43/bc.jpg"
+          },
+          {
+            "title": "GOLD COAST ADVENTURE SKYDIVE",
+            "state": "Queensland",
+            "District": "Gold Coast",
+            "price": 95,
+            "image": "https://cdn-imgix.headout.com/media/images/68be5204fc1caabb623996214f6a852c-4273%20hero%20image.jpg"
+          },
+          {
+            "title": "MELBOURNE SKYHIGH EXTREME",
+            "state": "Victoria",
+            "District": "Melbourne",
+            "price": 100,
+            "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6b/98/a9.jpg"
+          }
+        ],
+        "raftingSpots": [
+          {
+            "title": "FRANKLIN RIVER ADVENTURE",
+            "state": "Tasmania",
+            "district": "Franklin-Gordon Wild Rivers National Park",
+            "price": 75,
+            "image": "https://images.prismic.io/franklinriverrafting/62ba9c87-3b15-4bbc-8628-3657d7af8615_rafting.jpg?auto=compress,format"
+          },
+          {
+            "title": "MURRAY RIVER EXPEDITION",
+            "state": "South Australia",
+            "district": "Murray Bridge",
+            "price": 85,
+            "image": "https://www.discoveryholidayparks.com.au/files/6510_white_water_rafting_1.large.jpg"
+          },
+          {
+            "title": "TASMANIA WILD RIVERS CHALLENGE",
+            "state": "Tasmania",
+            "district": "Franklin River",
+            "price": 75,
+            "image": "https://assets.atdw-online.com.au/images/c2914fce2d6fb38af8194741d7c16e5f.jpeg?rect=208%2C0%2C3456%2C2592&w=1600&h=1200&q=eyJ0eXBlIjoibGlzdGluZyIsImxpc3RpbmdJZCI6IjU2YjI3NTA5YWVlZWFhZjc3M2QwNzQyZSIsImRpc3RyaWJ1dG9ySWQiOiI1NmIxZWI5MzQ0ZmVjYTNkZjJlMzIwY2MiLCJhcGlrZXlJZCI6IjU2YjFmNjNmMGNmMjEzYWQyMGRlZGZkZiIsInNlcnZpY2VJZCI6IjU5YWY4OTFhNDY2MTVmNzYwNGEzNDE4NCJ9"
+          },
+          {
+            "title": "KANGAROO ISLAND WHITEWATER EXPLORER",
+            "state": "South Australia",
+            "district": "Kangaroo Island",
+            "price": 70,
+            "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/71/39/30.jpg"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "country": "South Africa",
+        "trekkingSpots": [
+          {
+            "title": "WATERBERG WILDERNESS",
+            "state": "Limpopo",
+            "district": "Waterberg",
+            "price": 75,
+            "image": "https://images.squarespace-cdn.com/content/v1/5f1ab4309bd4b45e29ec3e4b/1622016064016-8MMNPOK65E9HTKXFWOFP/waterberg+plateau+hike.jpeg"
+          },
+          {
+            "title": "AMPHITHEATRE HIKE",
+            "state": "KwaZulu-Natal",
+            "district": "Drakensberg",
+            "price": 85,
+            "image": "https://i0.wp.com/www.walksinafrica.co.uk/wp-content/uploads/2019/12/Contour-path-beyond-Sentinel-Peak-Drakensberg-Amphitheatre.jpg?ssl=1"
+          },
+          {
+            "title": "OTTER TRAIL",
+            "state": "Western Cape",
+            "district": "Tsitsikamma",
+            "price": 80,
+            "image": "https://kilimanjaro.b-cdn.net/wp-content/uploads/otter-trail-hikes.jpeg"
+          },
+          {
+            "title": "SWARTBERG PASS ADVENTURE",
+            "state": "Western Cape",
+            "district": "Klein Karoo",
+            "price": 90,
+            "image": "https://brozaadventures.com/soft/file_store/highlight/1322615161CJ.jpg"
+          }
+        ],
+        "skyDivingSpots": [
+          {
+            "title": "GARDEN ROUTE SKYDIVING",
+            "state": "Western Cape",
+            "price": 95,
+            "District": "Mossel Bay",
+            "image": "https://www.western-cape-info.com/info/businesses/25569/images/bottom_images/4.jpg"
+          },
+          {
+            "title": "DRAKENSBERG DIVE EXPERIENCE",
+            "state": "KwaZulu-Natal",
+            "District": "Drakensberg",
+            "price": 100,
+            "image": "https://images.pexels.com/photos/70361/california-parachutists-skydivers-flares-70361.jpeg"
+          },
+          {
+            "title": "CAPE TOWN COASTAL JUMP",
+            "state": "Western Cape",
+            "District": "Cape Town",
+            "price": 105,
+            "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/8e/17/9d.jpg"
+          },
+          {
+            "title": "KRUGER NATIONAL PARK DIVE",
+            "state": "Mpumalanga",
+            "District": "Kruger National Park",
+            "price": 110,
+            "image": "https://media.istockphoto.com/id/496554912/photo/skydiving-photo.jpg?s=612x612&w=0&k=20&c=RYcytjN7o0y-RWFdyT2_AI9kCXDSB8Ln4xB6RpFtmkw="
+          }
+        ],
+        "raftingSpots": [
+          {
+            "title": "ORANGE RIVER ADVENTURE",
+            "state": "Northern Cape",
+            "district": "Augrabies Falls",
+            "price": 115,
+            "image": "https://media.istockphoto.com/id/465296896/photo/negotiating-hells-gate-in-the-gariep-river.jpg?s=612x612&w=0&k=20&c=iXC64yFzCfNV6deRYHqnJvMG3EJE_N_TSn5WyqQtA-0="
+          },
+          {
+            "title": "BLYDE RIVER CANYON RAFT",
+            "state": "Mpumalanga",
+            "district": "Blyde River Canyon",
+            "price": 120,
+            "image": "https://moguldom.com/wp-content/uploads/2013/11/zambezi-rafting_3271_600x450.jpg"
+          },
+          {
+            "title": "TUGELA RIVER EXPEDITION",
+            "state": "KwaZulu-Natal",
+            "district": "Tugela River",
+            "price": 125,
+            "image": "https://aquaterra.in/wp-content/uploads/2019/10/Brahmaputra-River-Rafting-Assam-27.jpg"
+          },
+          {
+            "title": "CAPE WINELANDS RAFTING",
+            "state": "Western Cape",
+            "district": "Stellenbosch",
+            "price": 130,
+            "image": "https://www.siyabona.com/images/zambezi-river-vic-falls-white-water-rafting-786x416.jpg"
+          }
+        ]
+      }
+      
+      
     ]
-    
-   
-    }
-]}
+  }
+  
