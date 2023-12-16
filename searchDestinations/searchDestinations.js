@@ -1,165 +1,13 @@
 let container = document.getElementById("searchResults");
 // localStorage.removeItem("event");
-let places =
-[{
-    "id": 1,
-    "country": "United States", 
-    "trekkingSpots": [
-        {
-            "title": "USA TREKKING Appalachian Trail",
-            "state": "North Carolina",
-            "district": "Great Smoky Mountains",
-            "price": 40,
-             "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "title": "USA TREKKING  Yosemite National Park",
-            "state": "California",
-            "district": "Sierra Nevada",
-            "price": 50,
-             "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "title": "USA TREKKING  Grand Canyon",
-            "state": "Arizona",
-            "district": "Grand Canyon Village",
-            "price": 45,
-            "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-
-        }
-    ],
-    "skyDivingSpots": [
-        {
-            "title": "USA skyDivingSpots Appalachian skyDivingSpots Trail",
-            "state": "North Carolina",
-            "district": "Great Smoky Mountains",
-            "price": 40,
-             "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "title": "USA skyDivingSpots Yosemite National skyDivingSpots Park",
-            "state": "California",
-            "district": "Sierra Nevada",
-            "price": 50,
-             "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "title": "USA skyDivingSpots Grand skyDivingSpots Canyon",
-            "state": "Arizona",
-            "district": "Grand Canyon Village",
-            "price": 45,
-            "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-
-        }
-    ],
-      "raftingSpots": [
-        {
-            "title": "USA raftingSpots Appalachian title Trail",
-            "state": "North Carolina",
-            "district": "Great Smoky Mountains",
-            "price": 40,
-             "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "title": "USA raftingSpots Yosemite title National Park",
-            "state": "California",
-            "district": "Sierra Nevada",
-            "price": 50,
-             "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "title": "USA raftingSpots Grand title Canyon",
-            "state": "Arizona",
-            "district": "Grand Canyon Village",
-            "price": 45,
-            "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-
-        }
-    ]
-    },
-    {
-    "id": 2,
-    "country": "India", 
-    "trekkingSpots": [
-        {
-            "title": "India trekking Appalachian India Trail",
-            "state": "North Carolina",
-            "district": "Great Smoky Mountains",
-            "price": 40,
-             "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "title": "India trekking Yosemite India National Park",
-            "state": "California",
-            "district": "Sierra Nevada",
-            "price": 50,
-             "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "title": "India trekking Grand India Canyon",
-            "state": "Arizona",
-            "district": "Grand Canyon Village",
-            "price": 45,
-            "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-
-        }
-    ],
-    "skyDivingSpots": [
-        {
-            "title": "India skyDivingSpots Appalachian India skyDivingSpots Trail",
-            "state": "North Carolina",
-            "district": "Great Smoky Mountains",
-            "price": 40,
-             "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "title": "India skyDivingSpots Yosemite India National skyDivingSpots Park",
-            "state": "California",
-            "district": "Sierra Nevada",
-            "price": 50,
-             "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "title": "India skyDivingSpots Grand India skyDivingSpots Canyon",
-            "state": "Arizona",
-            "district": "Grand Canyon Village",
-            "price": 45,
-            "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-
-        }
-    ],
-      "raftingSpots": [
-        {
-            "title": "India raftingSpots Appalachian India title Trail",
-            "state": "North Carolina",
-            "district": "Great Smoky Mountains",
-            "price": 40,
-             "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "title": "India raftingSpotsYosemite India title National Park",
-            "state": "California",
-            "district": "Sierra Nevada",
-            "price": 50,
-             "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        },
-        {
-            "title": "India raftingSpots Grand India title Canyon",
-            "state": "Arizona",
-            "district": "Grand Canyon Village",
-            "price": 45,
-            "image": "https://images.pexels.com/photos/840667/pexels-photo-840667.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-
-        }
-    ]
-        }
-    ];
+let url = "http://localhost:3001/countries"
+let places = [];
 
 
 let eventSelected = document.getElementById("event");
 let create = (element) => document.createElement(element)
 function addData(spot) {    
-
+    // console.log("addalojdbvsdojbvodsbvbjdsbv6588465654564+6 : : : : ",spot)
         let card = create("div"); 
         card.classList.add("card") 
             
@@ -207,39 +55,109 @@ function addData(spot) {
     return card;
 }
 document.getElementById("search").addEventListener("click", () => {  
+    // console.log("999999999999")
+            container.innerHTML = "";
+    paginationButtons.innerHTML = "";
+        places = [];
     let selectedCountry = document.getElementById("selectCountry").value;
     let selectedSport = document.getElementById("selectEvent").value;
-    let searchInputField = document.getElementById("inputCountryOrSport").value;
+    // let searchInputField = document.getElementById("inputCountryOrSport").value;
     console.log(selectedCountry , " : ", selectedSport)
     if (selectedCountry) {
-        addDatafromCountry(places[0])
+        fetchData(url,"country",selectedCountry);
+        // addDatafromCountry(places[0])
     } else if (selectedSport) {
-        addDatafromSport(places, selectedSport)
-    } else if (searchInputField) {
-        addDatafromInput(places)
-    } else { 
+        let res = fetch(url)
+        .then((res) => res.json())
+            .then((data) => {  
+                let len = 0;
+                if (selectedSport == "trekkingSpots") { 
+                    console.log("Data : ", data)
+                    data.forEach((place) => {  
+                        len += place.trekkingSpots.length;
+                    })
+                }else if (selectedSport == "raftingSpots") { 
+                    console.log("Data : ", data)
+                    data.forEach((place) => {  
+                        len += place.raftingSpots.length;
+                    })
+                }else if (selectedSport == "skyDivingSpots") { 
+                    console.log("Data : ", data)
+                    data.forEach((place) => {  
+                        len += place.skyDivingSpots.length;
+                    })
+                }  
+                createPaginationButtons(Math.ceil(len / 5)); 
+                addDatafromSport(data, selectedSport)
+        })
+
+    }  else { 
         alert("Select Any Field")
     }
 })
- 
-function addDatafromCountry(country) {  
+async function fetchData(url, field, query) { 
+    console.log(`${url}?${field}=${query}`)
+    let res = await fetch(`${url}?${field}=${query}`)
+    let data = await res.json();  
+    addDatafromCountry(data[0])
+}
+function createPaginationButtons(btns) { 
+    let paginationButtons = document.getElementById("paginationButtons");
+    for (let i = 1; i <= btns; i++) { 
+        let btn = create("button");
+        btn.textContent = i;
+        btn.setAttribute("data-id", i);
+        btn.addEventListener("click", () => { 
+            container.innerHTML = "";
+            appendCard(i, places);
+        })
+        paginationButtons.appendChild(btn)
+    }
+}
+function addDatafromCountry(country) { 
+    // console.log("--------")
+    // let btns = country.trekkingSpots.length;
+    // btns += country.raftingSpots.length;
+    // btns += country.skyDivingSpots.length;
+    // console.log(btns); 
     country.trekkingSpots.forEach((spot) => { 
-        container.appendChild(addData(spot));
+        // container.appendChild(addData(spot));
+        places.push(spot);
     })
      country.raftingSpots.forEach((spot) => { 
-        container.appendChild(addData(spot));
+        // container.appendChild(addData(spot));
+        places.push(spot);
      })
      country.skyDivingSpots.forEach((spot) => { 
-        container.appendChild(addData(spot));
-    })
+        // container.appendChild(addData(spot));
+        places.push(spot);
+     })
+    console.log(places)
+    createPaginationButtons(Math.ceil(places.length/5));
+    appendCard(1, places);
+
 }
 
-function addDatafromSport(countries,selectedSport) {     
+function appendCard(page, data) { 
+    console.log("Append Card : ", page, " : ", data)
+    let x;
+    if (page == 1) x = 0;
+    else if (page == 2) x = 5;
+    else if (page == 3) x = 10;
+    for (let i = x; i < x + 5; i++) { 
+        // console.log(" I ", i);
+        container.appendChild(addData(data[i]));
+    }
+}
+
+function addDatafromSport(countries, selectedSport) { 
     countries.forEach((country) => { 
         country[selectedSport].forEach((spot) => { 
-            container.appendChild(addData(spot));
+            // container.appendChild(addData(spot));
+            places.push(spot);
             }) 
-    })
+    }) 
+    appendCard(1, places)
       
 }
 
