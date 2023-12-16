@@ -1,4 +1,6 @@
 body {
+  font-family: 'Afacad', sans-serif;
+  
     background-color: #f9f9f9;
     margin: 5px 5%;
     #header {
@@ -64,22 +66,22 @@ body {
         }
       }
     }
-  
     form {
-        max-width: 400px;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: #f5f5f5;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      
-        label {
+      font-size: 1.2rem;
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f5f5f5;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+      label {
           display: block;
           margin-bottom: 8px;
-          font-weight: bold;
-        }
-      
-        input {
+         // font-weight: bold;
+      }
+  
+      input {
           width: 100%;
           padding: 10px;
           margin-bottom: 16px;
@@ -87,20 +89,54 @@ body {
           border: 1px solid #ccc;
           border-radius: 5px;
           font-size: 16px;
-        }
-      
-        input[type="submit"] {
+      }
+  
+      input[type="submit"] {
           background-color: #3498db;
           color: #fff;
           cursor: pointer;
           transition: background-color 0.3s ease;
-      
+  
           &:hover {
-            background-color: #2980b9;
+              background-color: #2980b9;
           }
-        }
       }
-      
+  
+      // Additional styles for CVV and Expiry Date
+      #flexbox {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap:80px;
+    
+        label {
+            margin-right: 50px;
+            display:block;
+        }
+    
+        input {
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            padding: 10px;
+        }
+    
+        #cardCvv {
+            width: 160px; 
+        }
+    
+        #cardyear {
+            width: 160px; 
+        }
+    }
+    
+  }
+  
+  
+ 
+  
       
   
     #footer {

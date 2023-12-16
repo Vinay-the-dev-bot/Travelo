@@ -58,71 +58,93 @@ body #header #navBar #contactUS {
   padding-top: 20px;
   font-family: "Afacad", sans-serif;
 }
-body div h1 {
+body .maindiv h1 {
   font-size: 1.5em;
   color: #333;
   margin-bottom: 20px;
   text-align: center;
   font-family: "Afacad", sans-serif;
 }
-body div label {
+body .maindiv .checkbox-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: "Afacad", sans-serif;
+}
+body .maindiv .checkbox-container input[type=checkbox] {
   margin-right: 20px;
+  transform: scale(1.5);
 }
-body div input[type=text],
-body div input[type=number] {
-  width: 40%;
-  padding: 8px;
-  margin-bottom: 15px;
-  box-sizing: border-box;
+body .maindiv .checkbox-container label {
+  font-size: 1.2em;
 }
-body div #noppl form label {
+body .maindiv #noppl {
+  display: block;
+  margin: auto;
+  padding: 80px 250px 10px 250px;
+  font-size: 1.4em;
+}
+body .maindiv #noppl .myForm {
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  font-family: "Afacad", sans-serif;
+  margin-bottom: 100px;
+  padding: 40px;
+}
+body .maindiv #noppl .myForm label {
   margin-bottom: 10px;
 }
-body div #noppl form input[type=number] {
-  margin-bottom: 10px;
+body .maindiv #noppl .myForm input[type=number] {
+  margin-bottom: 20px;
   margin-right: 32px;
-  margin-left: 56px;
+  margin-left: 59px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 0.8em;
 }
-body div #noppl form input[type=text] {
-  margin-bottom: 10px;
+body .maindiv #noppl .myForm input[type=text] {
+  margin-bottom: 20px;
   margin-right: 32px;
   margin-left: 39px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 0.8em;
 }
-body div #noppl form input[type=radio] {
-  margin-bottom: 10px;
-  margin-right: 32px;
-  margin-left: 25px;
-}
-body div #noppl form input[type=checkbox] {
-  margin-bottom: 10px;
-  margin-right: 20px;
-}
-body div #noppl form input[type=radio],
-body div #noppl form input[type=checkbox] {
+body .maindiv #noppl .myForm input[type=radio] {
+  margin-bottom: 30px;
   margin-right: 5px;
-  margin-top: 40px;
+  margin-left: 25px;
+  border-radius: 5px;
+  transform: scale(1.5);
 }
-body div button {
-  padding: 10px 20px;
-  font-size: 1em;
+body .maindiv button {
+  padding: 5px 10px;
+  font-size: 0.8em;
   background-color: #3498db;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin-top: 50px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  transition: box-shadow 0.15s, transform 0.15s;
   text-align: center;
+  font-family: "Afacad", sans-serif;
 }
-body div button a {
+body .maindiv button a {
   text-decoration: none;
   color: #fff;
 }
-body div #add {
+body .maindiv #add {
   background-color: green;
+  font-size: 1.3rem;
+  margin-top: 60px;
 }
-body div #del {
+body .maindiv .del {
   background-color: rgb(238, 25, 25);
+}
+body .maindiv #btn1 {
+  font-size: 1.3rem;
+  margin-top: 60px;
 }
 body #footer {
   margin-top: 3rem;
