@@ -2,7 +2,12 @@ var inc = () => {
     let x = Number(document.getElementById("display").value); 
     x++;
     document.getElementById("display").value = x;
-   
+    
+  let allPrice = document.getElementById("priceforAll");
+  let noOfPeople = document.getElementById("display").value;
+  let pricePerEvent = document.getElementById("price");
+  let price = Number(noOfPeople) * parseInt(pricePerEvent.textContent);
+  allPrice.textContent = `Total Amount for ${noOfPeople} is ${price}`;
 }
 
 var dec = () => {
@@ -13,6 +18,11 @@ var dec = () => {
   } else {  
     alert("Minimum 1 person needed to book")
   }
+  let allPrice = document.getElementById("priceforAll");
+  let noOfPeople = document.getElementById("display").value;
+  let pricePerEvent = document.getElementById("price");
+  let price = Number(noOfPeople) * parseInt(pricePerEvent.textContent);
+  allPrice.textContent = `Total Amount for ${noOfPeople} is ${price}`;
 }
 
 function setMinDate() {
@@ -59,18 +69,35 @@ document.getElementById("availability").addEventListener("click", () => {
         p.textContent = "Seats are available for the event";
         availableOrNot.appendChild(p)
 
-         let priceforAll = create("p");
+      let priceforAll = create("p");
+      priceforAll.setAttribute("id", "priceforAll");
         priceforAll.textContent = `Total Amount for ${noOfPeople} is ${x}`;
         availableOrNot.appendChild(priceforAll)
 
         let book = create("a");
         let button = create("button");
         button.setAttribute("id", "bookNow");
-        button.textContent = "Book Now!!";
+        book.setAttribute("href", "/byte-harmony-2098/contactpage/index.html");
+      button.textContent = "Book Now!!";
+      button.addEventListener("click", () => {  
+        let noOfPeople = document.getElementById("display").value;
+        let pricePerEvent = document.getElementById("price");
+        let price = Number(noOfPeople) * parseInt(pricePerEvent.textContent); 
+        let obj = {
+          "noOfPeople": document.getElementById("display").value,
+          "date": document.getElementById("eventDate").value,
+          "totalPrice": price
+        }
+        localStorage.setItem("bookingDetails",JSON.stringify(obj))
+      })
         book.appendChild(button)
-        availableOrNot.appendChild(book)
+      availableOrNot.appendChild(book)
+      
     } else { 
-        availableOrNot.innerHTML = "";
+      availableOrNot.innerHTML = "";
+      let p = create("p");
+        p.textContent = "Sorry!!!  Seats are not available for the selected date";
+        availableOrNot.appendChild(p)
         let goback = create("a");
         goback.setAttribute("href", "../searchDestinations/searchDestinations.html")
         let button = create("button")
