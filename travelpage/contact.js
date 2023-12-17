@@ -70,12 +70,12 @@ function updateLocalStorage() {
   var formElements = document.querySelectorAll('#noppl form');
 
   formElements.forEach(function (form) {
-      var formData = {
-          name: form.querySelector('input[placeholder="Enter Name"]').value,
-          gender: form.querySelector('input[name="contact"]:checked').value,
-          age: form.querySelector('input[type="number"]').value
-      };
-      formsData.push(formData);
+    var formData = {
+      name: form.querySelector('input[placeholder="Enter Name"]').value,
+      gender: form.querySelector('input[name="contact"]:checked').value,
+      age: form.querySelector('input[type="number"]').value
+    };
+    formsData.push(formData);
   });
 
   localStorage.setItem('formDetails', JSON.stringify(formsData));
@@ -87,17 +87,17 @@ function saveDetails() {
   window.location.href = "../paymentcard/payment.html";
 }
 
-// Load existing form data from localStorage if any
-window.addEventListener('load', function () {
-  var storedFormsData = localStorage.getItem('formDetails');
-  if (storedFormsData) {
-      var formsData = JSON.parse(storedFormsData);
-      formsData.forEach(function (formData) {
-          var newForm = createForm();
-          newForm.querySelector('input[placeholder="Enter Name"]').value = formData.name;
-          newForm.querySelector('input[name="contact"][value="' + formData.gender + '"]').checked = true;
-          newForm.querySelector('input[type="number"]').value = formData.age;
-          document.getElementById("noppl").appendChild(newForm);
-      });
-  }
-});
+//Load existing form data from localStorage if any
+// window.addEventListener('load', function () {
+//   var storedFormsData = localStorage.getItem('formDetails');
+//   if (storedFormsData) {
+//       var formsData = JSON.parse(storedFormsData);
+//       formsData.forEach(function (formData) {
+//           var newForm = createForm();
+//           newForm.querySelector('input[placeholder="Enter Name"]').value = formData.name;
+//           newForm.querySelector('input[name="contact"][value="' + formData.gender + '"]').checked = true;
+//           newForm.querySelector('input[type="number"]').value = formData.age;
+//           document.getElementById("noppl").appendChild(newForm);
+//       });
+//   }
+// });
