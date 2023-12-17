@@ -213,7 +213,7 @@ function appendCard(page, data) {
 }
 
 function addDatafromSport(countries, selectedSport) { 
-    countries.forEach((country) => { 
+    countries.forEach((country) => {  
         country[selectedSport].forEach((spot) => { 
             // container.appendChild(addData(spot));
             places.push(spot);
