@@ -235,7 +235,7 @@ function addDatafromCountry(country) {
 }
 
 function addDatafromSport(countries,selectedSport) {     
-    countries.forEach((country) => { 
+    countries.forEach((country) => {
         country[selectedSport].forEach((spot) => { 
             container.appendChild(addData(spot));
             }) 
@@ -246,6 +246,7 @@ function addDatafromSport(countries,selectedSport) {
 function addDatafromInput(places) { 
     places.forEach((place) => { 
         addDatafromCountry(place)
+        console.log(place);
     })
 
 }
