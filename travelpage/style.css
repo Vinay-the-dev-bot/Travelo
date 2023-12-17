@@ -138,9 +138,27 @@ body .maindiv #add {
   background-color: green;
   font-size: 1.3rem;
   margin-top: 60px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  font-family: "Afacad", sans-serif;
+}
+body .maindiv #add:active {
+  box-shadow: #d6d6e7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+body .maindiv #add:active:hover {
+  background-color: #27ae60;
 }
 body .maindiv .del {
   background-color: rgb(238, 25, 25);
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  font-family: "Afacad", sans-serif;
+}
+body .maindiv .del:active {
+  box-shadow: #d6d6e7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+body .maindiv .del:active:hover {
+  background-color: #27ae60;
 }
 body .maindiv #btn1 {
   font-size: 1.3rem;
