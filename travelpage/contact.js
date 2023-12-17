@@ -4,8 +4,24 @@ document.getElementById("add").addEventListener("click", () => {
 });
 
 document.getElementById("btn1").addEventListener("click", () => {
-  saveDetails();
+  var termsCheckbox = document.getElementById("termsCheckbox");
+  console.log(termsCheckbox.checked);
+  if (termsCheckbox.checked) {
+    saveDetails();
+  } 
+  else {
+    window.location.href = "../travelpage/travel.html";
+
+    alert('Please check the T&C before proceeding.');
+   
+     event.preventDefault();
+     //event.stopPropagation();
+  }
 });
+// function validateCheckbox() {
+//   var termsCheckbox = document.getElementById("termsCheckbox");
+//   return ;
+// }
 
 function createForm() {
   var form = document.createElement("form");

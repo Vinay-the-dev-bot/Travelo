@@ -86,9 +86,16 @@ body form input[type=submit] {
   color: #fff;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  background-color: #27ae60;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+  font-family: "Afacad", sans-serif;
 }
-body form input[type=submit]:hover {
-  background-color: #2980b9;
+body form input[type=submit]:active {
+  box-shadow: #d6d6e7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+body form input[type=submit]:active:hover {
+  background-color: #27ae60;
 }
 body form #flexbox {
   display: flex;
