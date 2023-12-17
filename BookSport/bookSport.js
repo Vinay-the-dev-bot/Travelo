@@ -7,7 +7,8 @@ var inc = () => {
   let noOfPeople = document.getElementById("display").value;
   let pricePerEvent = document.getElementById("price");
   let price = Number(noOfPeople) * parseInt(pricePerEvent.textContent);
-  allPrice.textContent = `Total Amount for ${noOfPeople} is ${price}`;
+  allPrice.textContent = `Total Amount for ${noOfPeople} people is $${price}.00`;
+  // Total Amount for ${noOfPeople} people is $${x}.00
 }
 
 var dec = () => {
@@ -22,14 +23,14 @@ var dec = () => {
   let noOfPeople = document.getElementById("display").value;
   let pricePerEvent = document.getElementById("price");
   let price = Number(noOfPeople) * parseInt(pricePerEvent.textContent);
-  allPrice.textContent = `Total Amount for ${noOfPeople} is ${price}`;
+  allPrice.textContent = `Total Amount for ${noOfPeople} people is $${price}.00`;
 }
 
 function setMinDate() {
 var today = new Date(); 
     var todayFormatted = today.toISOString().split('T')[0];
     document.getElementById('eventDate').setAttribute('min', todayFormatted);
-    document.getElementById('eventDate').value = todayFormatted;
+    document.getElementById('eventDate').value = JSON.parse(localStorage.getItem("eventDate"));
 }
 
 let container = document.getElementById("bookingDetails")
@@ -71,13 +72,13 @@ document.getElementById("availability").addEventListener("click", () => {
 
       let priceforAll = create("p");
       priceforAll.setAttribute("id", "priceforAll");
-        priceforAll.textContent = `Total Amount for ${noOfPeople} is ${x}`;
+        priceforAll.textContent = `Total Amount for ${noOfPeople} people is $${x}.00`;
         availableOrNot.appendChild(priceforAll)
 
         let book = create("a");
         let button = create("button");
         button.setAttribute("id", "bookNow");
-        book.setAttribute("href", "/byte-harmony-2098/contactpage/index.html");
+        book.setAttribute("href", "/byte-harmony-2098/travelPage/travel.html");
       button.textContent = "Book Now!!";
       button.addEventListener("click", () => {  
         let noOfPeople = document.getElementById("display").value;
