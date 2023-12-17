@@ -28,9 +28,11 @@ links.forEach((link) => {
 })
 
 function getSignUp() {
+  let fullName = document.getElementById('fullName').value
   let email = document.getElementById('email').value
   let password = document.getElementById('password').value
   var obj = {}
+  obj.FullName = fullName
   obj.Email = email
   obj.Password = password
   localStorage.setItem('user', JSON.stringify(obj))

@@ -123,6 +123,14 @@ body #footer #footer2 #contact {
 body #footer #footer2 #company {
   width: 15%;
 }
+body #footer #footer2 #company > a {
+  text-decoration: none;
+  color: black;
+}
+body #footer #footer2 #company > a p {
+  height: 20px;
+  margin: 0;
+}
 body #footer #footer2 #resource {
   width: 15%;
 }
@@ -142,10 +150,27 @@ body #footer #footer3 #supportePayments {
 body #footer #footer3 img {
   width: 120px;
 }
+body #footer3 {
+  font-family: "Afacad", sans-serif;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  padding: 0 50px;
+}
+body #footer3 #copyright {
+  width: 50%;
+}
+body #footer3 #supportePayments {
+  display: flex;
+}
+body #footer3 img {
+  width: 120px;
+}
 
 #searchForm {
   display: flex;
   flex-direction: column;
+  padding-bottom: 25px;
 }
 #searchForm #popular {
   height: 150px;
@@ -253,6 +278,12 @@ body #footer #footer3 img {
   width: 90%;
   display: flex;
 }
+#searchForm #searchResults .card p {
+  font-size: 20px;
+}
+#searchForm #searchResults .card #pricePerPerson {
+  font-size: 15px;
+}
 #searchForm #searchResults .card img {
   border-radius: 25px;
   width: 50%;
@@ -265,13 +296,12 @@ body #footer #footer3 img {
 }
 #searchForm #searchResults .card .info div {
   display: flex;
-  gap: 50px;
+  gap: 150px;
 }
 #searchForm #searchResults .card .info div input {
   border-radius: 50px;
-  padding: 0 40px;
   height: 40px;
-  font-size: 25px;
+  font-size: 20px;
   border-style: none;
 }
 #searchForm #searchResults .card .info div a {
@@ -282,13 +312,13 @@ body #footer #footer3 img {
   font-family: "Afacad", sans-serif;
   padding: 0 30px;
   height: 40px;
+  width: -moz-fit-content;
+  width: fit-content;
   margin: auto;
   cursor: pointer;
   border-style: none;
   border-radius: 15px;
   background-color: #00da83;
-}
-#searchForm #searchResults .card .info div a button {
   box-shadow: #00da83 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #00da83 0 -3px 0 inset;
 }
 #searchForm #searchResults .card .info div a button:hover {
@@ -306,11 +336,24 @@ body #footer #footer3 img {
 }
 #searchForm #paginationButtons #buttons {
   display: flex;
-  justify-self: center;
-  gap: 5px;
   margin: auto;
+  gap: 35px;
 }
 #searchForm #paginationButtons #buttons button {
-  width: 60px;
-  height: 30px;
+  display: block;
+  font-family: "Afacad", sans-serif;
+  padding: 0 30px;
+  height: 40px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 5px;
+  background-color: #00da83;
+  box-shadow: #00da83 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #00da83 0 -3px 0 inset;
+}
+#searchForm #paginationButtons #buttons button:active {
+  box-shadow: #00da83 0 3px 7px inset;
+  transform: translateY(2px);
 }/*# sourceMappingURL=searchDestinations.css.map */

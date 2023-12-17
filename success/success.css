@@ -171,6 +171,14 @@ body #footer3 img {
   font-family: "Afacad", sans-serif;
   padding: 50px;
 }
+#bookingDetails #bookedsucess {
+  text-align: center;
+  color: green;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-size: 2rem;
+}
 #bookingDetails #bookingDetailspage {
   font-size: 25px;
   padding: 50px;
@@ -226,6 +234,12 @@ body #footer3 img {
   transition: box-shadow 0.15s, transform 0.15s;
   font-size: 25px;
 }
+#bookingDetails #bookingDetailspage #otherLocations a,
+#bookingDetails #bookingDetailspage #bookNow a,
+#bookingDetails #bookingDetailspage #availability a {
+  text-decoration: none;
+  color: #36395a;
+}
 #bookingDetails #bookingDetailspage #otherLocations:hover,
 #bookingDetails #bookingDetailspage #bookNow:hover,
 #bookingDetails #bookingDetailspage #availability:hover {
@@ -245,4 +259,4 @@ body #footer3 img {
   margin: 30px 0;
   font-size: 25px;
   border-style: none;
-}/*# sourceMappingURL=bookSport.css.map */
+}/*# sourceMappingURL=success.css.map */

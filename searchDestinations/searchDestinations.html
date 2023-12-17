@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Destinations</title>
     <link rel="stylesheet" href="searchDestinations.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -35,10 +35,10 @@
           <img src="../byte-harmony-2098/Assets/pics/Travelo-Logo.png" alt="" />
         </div>
         <div id="navBarlist">
-          <p>Home</p>
+          <a href="/byte-harmony-2098/index.html"><p>Home</p></a>
           <p>Destinations</p>
           <p>Pricing</p>
-          <p>About Us</p>
+          <a href="/byte-harmony-2098/about-us/aboutUs.html"><p>About Us</p></a>
           <p>Features</p>
           <p>Reviews</p>
         </div>
@@ -49,10 +49,10 @@
       <div id="popular">
         <p>Popular Destinations</p>
         <div id="countries">
-          <button>India</button>
-          <button>U.S.A</button>
-          <button>South Africa</button>
-          <button>Indonasia</button>
+          <button id="India">India</button>
+          <button id="United%20States">U.S.A</button>
+          <button id="Australia">Australia</button>
+          <button id="South%20Africa">South Africa</button>
         </div>
       </div>
       <div id="searchCriteria">
@@ -60,14 +60,14 @@
           <select name="county" id="selectCountry">
             <option value="">Choose A Country</option>
             <option value="India">India</option>
-            <option value="USA">U.S.A</option>
-            <option value="South Africa">South Africa</option>
-            <option value="Indonasia">Indonasia</option>
+            <option value="United%20States">U.S.A</option>
+            <option value="Australia">Australia</option>
+            <option value="South%20Africa">South Africa</option>
           </select>
         </div>
         <div id="selectByEvent">
           <select name="event" id="selectEvent">
-            <option value="" selected>Choose A Sport</option>
+            <option value="" selected>Choose A Event</option>
             <option value="trekkingSpots">Trekking</option>
             <option value="raftingSpots">Rafting</option>
             <option value="skyDivingSpots">Skydiving</option>
@@ -75,22 +75,11 @@
         </div>
       </div>
       <div id="searchInp">
-        <input
-          type="search"
-          name="county"
-          id="inputCountryOrSport"
-          placeholder="Search for a conuntry or a sport.."
-        />
         <button id="search">SEARCH</button>
       </div>
       <div id="searchResults"></div>
       <div id="paginationButtons">
-        <div id="buttons">
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
-          <button>4</button>
-        </div>
+        <div id="buttons"></div>
       </div>
     </div>
     <div id="footer">
@@ -99,25 +88,16 @@
         <div>Leading the way in adventure</div>
         <div id="socials">
           <a href="#">
-            <img
-              src="../byte-harmony-2098/Assets/pics/FacebookIcon.png"
-              alt="Facebook"
-            />
+            <img src="../Assets/pics/FacebookIcon.png" alt="Facebook" />
           </a>
           <a href="#">
-            <img
-              src="../byte-harmony-2098/Assets/pics/Twitter Icon.png"
-              alt="Twitter"
+            <img src="../Assets/pics/Twitter Icon.png" alt="Twitter"
           /></a>
           <a href="#">
-            <img
-              src="../byte-harmony-2098/Assets/pics/Instagram Icon.png"
-              alt="Instagram"
+            <img src="../Assets/pics/Instagram Icon.png" alt="Instagram"
           /></a>
           <a href="#">
-            <img
-              src="../byte-harmony-2098/Assets/pics/Youtube Icon.png"
-              alt="Youtube"
+            <img src="../Assets/pics/Youtube Icon.png" alt="Youtube"
           /></a>
         </div>
         <div>Join our Newsletter</div>
@@ -158,9 +138,9 @@
       <div id="footer3">
         <div id="copyright">2023 travelo | All Rights Reserved</div>
         <div id="supportePayments">We Accept Payment:</div>
-        <img src="../byte-harmony-2098/Assets/pics/stripeLogo.png" alt="" />
-        <img src="../byte-harmony-2098/Assets/pics/paypalLogo.png" alt="" />
-        <img src="../byte-harmony-2098/Assets/pics/payoneerLogo.png" alt="" />
+        <img src="../Assets/pics/stripeLogo.png" alt="" />
+        <img src="../Assets/pics/paypalLogo.png" alt="" />
+        <img src="../Assets/pics/payoneerLogo.png" alt="" />
       </div>
     </div>
   </body>

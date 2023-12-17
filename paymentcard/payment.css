@@ -1,4 +1,5 @@
 body {
+  font-family: "Afacad", sans-serif;
   background-color: #f9f9f9;
   margin: 5px 5%;
 }
@@ -59,6 +60,7 @@ body #header #navBar #contactUS {
   font-family: "Afacad", sans-serif;
 }
 body form {
+  font-size: 1.2rem;
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
@@ -69,7 +71,6 @@ body form {
 body form label {
   display: block;
   margin-bottom: 8px;
-  font-weight: bold;
 }
 body form input {
   width: 100%;
@@ -88,6 +89,30 @@ body form input[type=submit] {
 }
 body form input[type=submit]:hover {
   background-color: #2980b9;
+}
+body form #flexbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 80px;
+}
+body form #flexbox label {
+  margin-right: 50px;
+  display: block;
+}
+body form #flexbox input {
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+}
+body form #flexbox #cardCvv {
+  width: 160px;
+}
+body form #flexbox #cardyear {
+  width: 160px;
 }
 body #footer {
   margin-top: 3rem;
