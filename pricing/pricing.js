@@ -3,19 +3,28 @@ let mainSection = document.getElementById('package');
 let Trekking = document.getElementById('trekking');
 let Skydiving = document.getElementById('sky-diving');
 let Riverrafting = document.getElementById('river-rafting');
+let paginationSection = document.getElementById('pagination-wrapper');
 
 var trekking_spots = [];
 var skyDiving_spots = [];
 var rafting_spots = [];
+var Country ;
 
-async function fetchingUrl(url) {
+
+async function fetchingUrl(url,page) {
   try {
-    let res = await fetch(url);
+    let res = await fetch(`${url}?id=${page||1}&_limit=1`);
     let data = await res.json();
 
     data.forEach((country) => {
+      console.log(country)
+      if(country.country){
+        Country = country.country;
+        console.log(Country);
+      }
       if (country.trekkingSpots) {
         trekking_spots.push(...country.trekkingSpots);
+        console.log(trekking_spots);
       }
 
       if (country.skyDivingSpots) {
@@ -24,6 +33,7 @@ async function fetchingUrl(url) {
 
       if (country.raftingSpots) {
         rafting_spots.push(...country.raftingSpots);
+        console.log(rafting_spots);
       }
     });
 
@@ -53,7 +63,7 @@ Riverrafting.addEventListener('click', () => {
 function eventsSelected(eventName) {
   // Clear the existing content in mainSection
   mainSection.innerHTML = '';
-
+  
   // Append the cardList to the mainSection
   mainSection.append(cardListMaker(eventName));
 }
@@ -98,3 +108,26 @@ function cardMaker(spot) {
 
   return card;
 }
+
+function pagination() {
+  let totalButtons = Math.ceil(26 / 8);
+
+  for (let i = 1; i <= totalButtons; i++) {
+    let button = document.createElement('button');
+    button.className = 'paginated-buttons';
+    button.innerHTML = i;
+    
+    button.addEventListener('click', () => {
+      mainSection.innerHTML = '';
+      trekking_spots = [];
+      rafting_spots = [];
+      skyDiving_spots = [];
+      fetchingUrl(url, i);
+    });
+
+    paginationSection.append(button);
+  }
+}
+
+
+pagination();
