@@ -171,18 +171,23 @@ body #footer3 img {
   font-family: "Afacad", sans-serif;
   padding: 50px;
 }
-#bookingDetails #bookedsucess {
+#bookingDetails .bookedsucess {
   text-align: center;
   color: green;
-  margin-top: 30px;
-  margin-bottom: 40px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
   font-weight: bold;
   font-size: 2rem;
+}
+#bookingDetails .bookedsucess > p {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 #bookingDetails #bookingDetailspage {
   font-size: 25px;
   padding: 50px;
   padding-top: 1px;
+  margin-bottom: 2rem;
   border-radius: 10px;
   box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
@@ -190,11 +195,31 @@ body #footer3 img {
   width: 800px;
   border-radius: 5px;
 }
+#bookingDetails #bookingDetailspage #touristDetails .formDetailsText .formDetails {
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+  margin-top: -1rem;
+}
+#bookingDetails #bookingDetailspage #touristDetails .formDetailsText .formDetails tr {
+  border: 2px solid black;
+}
+#bookingDetails #bookingDetailspage #touristDetails .formDetailsText .formDetails th {
+  border: 2px solid black;
+  padding: 0.1rem 2rem;
+  font-size: 1.4rem;
+}
+#bookingDetails #bookingDetailspage #touristDetails .formDetailsText .formDetails td {
+  border: 2px solid black;
+  padding: 0.1rem 2rem;
+  font-size: 1.2rem;
+}
 #bookingDetails #bookingDetailspage #touristDetails .text {
   display: flex;
   gap: 10px;
+  margin-bottom: 1.5rem;
 }
-#bookingDetails #bookingDetailspage #touristDetails .text #inc, #bookingDetails #bookingDetailspage #touristDetails .text #dec {
+#bookingDetails #bookingDetailspage #touristDetails .text #inc,
+#bookingDetails #bookingDetailspage #touristDetails .text #dec {
   background-color: #f9f9f9;
   border-radius: 2px;
   border: none;

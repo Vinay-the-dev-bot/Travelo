@@ -162,11 +162,34 @@ body {
         #add{
             background-color: green;
             font-size: 1.3rem;
-            margin-top: 60px;
+            margin-top: 60px;     box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+            rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+            font-family: 'Afacad', sans-serif;
+           
+            &:active {
+              box-shadow: #d6d6e7 0 3px 7px inset;
+              transform: translateY(2px);
+            &:hover {
+              background-color: #27ae60;
+             
+            }
           }
+        }
           .del{
             background-color: rgb(238, 25, 25);
+            box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
+            rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
+            font-family: 'Afacad', sans-serif;
+           
+            &:active {
+              box-shadow: #d6d6e7 0 3px 7px inset;
+              transform: translateY(2px);
+            &:hover {
+              background-color: #27ae60;
+             
+            }
           }
+        }
           #btn1{
            // background-color: rgb(191, 191, 243);
             font-size: 1.3rem;
