@@ -197,6 +197,10 @@ function addDatafromCountry(country) {
 
 }
 
+<<<<<<< HEAD
+function addDatafromSport(countries,selectedSport) {     
+    countries.forEach((country) => {
+=======
 function appendCard(page, data) { 
     // console.log("Append Card : ", page, " : ", data)
     // let x;
@@ -214,6 +218,7 @@ function appendCard(page, data) {
 
 function addDatafromSport(countries, selectedSport) { 
     countries.forEach((country) => { 
+>>>>>>> 46f7273f1a63d65ba14eb9445409a35c980c84e7
         country[selectedSport].forEach((spot) => { 
             // container.appendChild(addData(spot));
             places.push(spot);
@@ -242,6 +247,7 @@ var today = new Date();
 function addDatafromInput(places) { 
     places.forEach((place) => { 
         addDatafromCountry(place)
+        console.log(place);
     })
 
 }

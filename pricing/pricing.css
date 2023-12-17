@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    color: #333;
+}
+
+.package {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select {
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+nav {
+    background-color: #3498db;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #2980b9;
+    color: white;
+}
+
+nav a.active {
+    background-color: #2980b9;
+    color: white;
+}
+
+
+  
+.package {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+/* Styling for the card container */
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Styling for individual cards */
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Styling for the image section within the card */
+
+
+/* Styling for card content */
+/* Styling for the image section within the card */
+.image-section {
+  position: relative;
+  overflow: hidden;
+  height: 200px; /* Set a fixed height for better alignment */
+}
+
+.image-section img {
+  width: 250px;
+  object-fit: cover; /* Maintain image aspect ratio and cover the entire container */
+  display: block;
+}
+
+/* Styling for card content */
+.card-title {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.card-state {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.card-price {
+  font-size: 1.25rem;
+  color: #27ae60; /* Green color for price */
+  margin-top: 5px;
+}
+

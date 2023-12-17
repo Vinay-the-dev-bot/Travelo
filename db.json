@@ -59,13 +59,6 @@
             "district": "Bar Harbor",
             "price": 65,
             "image": "https://images.pexels.com/photos/2450296/pexels-photo-2450296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-          },
-          {
-            "title": "MOUNT RAINIER NATIONAL PARK",
-            "state": "Washington",
-            "district": "Pierce County",
-            "price": 70,
-            "image": "https://images.pexels.com/photos/914128/pexels-photo-914128.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           }
         ],
         "skyDivingSpots": [
@@ -204,13 +197,6 @@
             "image": "https://www.shutterstock.com/image-photo/chadar-trek-the-frozen-zanskar-600nw-715794370.jpg"
           },
           {
-            "title": "MUNNAR",
-            "state": "Kerala",
-            "district": "Idukki",
-            "price": 45,
-            "image": "https://spicetreemunnar.com/wp-content/uploads/2022/10/Pothamedu-Viewpoint-1.jpg"
-          },
-          {
             "title": "VALLEY OF FLOWERS",
             "state": "Uttarakhand",
             "district": "Chamoli",
@@ -281,6 +267,34 @@
             "district": "Port Blair",
             "price": 55,
             "image": "https://www.clearholidays.com/hbimages/activities/images/skydiving.jpg"
+          },
+          {
+            "title": "DHANA",
+            "state": "Madhya Pradesh",
+            "district": "Sagar",
+            "price": 55,
+            "image": "https://images.pexels.com/photos/15736084/pexels-photo-15736084/free-photo-of-people-with-parachutes-landing-on-seashore.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "AMBY VALLEY",
+            "state": "Maharashtra",
+            "district": "Lonavala",
+            "price": 60,
+            "image": "https://images.pexels.com/photos/19015913/pexels-photo-19015913/free-photo-of-a-person-on-a-parachute.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "JAIPUR",
+            "state": "Rajasthan",
+            "district": "Jaipur",
+            "price": 50,
+            "image": "https://images.pexels.com/photos/15703514/pexels-photo-15703514/free-photo-of-tandem-skydiving.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "BIR-BILLING",
+            "state": "Himachal Pradesh",
+            "district": "Kangra",
+            "price": 65,
+            "image": "https://images.pexels.com/photos/19362805/pexels-photo-19362805/free-photo-of-planor-gosterisi-karaman.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           }
         ],
         "raftingSpots": [
@@ -311,6 +325,34 @@
             "district": "Jalgaon",
             "price": 65,
             "image": "https://raftinginthesmokies.com/wp-content/uploads/2018/08/IMG_2857.jpg"
+          },
+          {
+            "title": "ZANSKAR RIVER",
+            "state": "Jammu and Kashmir",
+            "district": "Ladakh",
+            "price": 70,
+            "image": "https://images.pexels.com/photos/1732281/pexels-photo-1732281.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "BHAGIRATHI RIVER",
+            "state": "Uttarakhand",
+            "district": "Uttarkashi",
+            "price": 45,
+            "image": "https://images.pexels.com/photos/1305095/pexels-photo-1305095.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "TAWANG CHU",
+            "state": "Arunachal Pradesh",
+            "district": "Tawang",
+            "price": 50,
+            "image": "https://images.pexels.com/photos/1732284/pexels-photo-1732284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "KUNDALIKA RIVER",
+            "state": "Maharashtra",
+            "district": "Kolad",
+            "price": 55,
+            "image": "https://images.pexels.com/photos/1615766/pexels-photo-1615766.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           }
         ]
       },
@@ -345,6 +387,34 @@
             "district": "Sydney",
             "price": 55,
             "image": "https://sitchu.com.au/media/drceikpb/figure-8-pools.jpg?mode=max&width=1400&rnd=132685557548230000"
+          },
+          {
+            "title": "ENCHANTED RAINBOW TRAIL",
+            "state": "New South Wales",
+            "district": "Sydney",
+            "price": 75,
+            "image": "https://images.pexels.com/photos/2609459/pexels-photo-2609459.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "MAGIC VALLEY EXPEDITION",
+            "state": "Victoria",
+            "district": "Melbourne",
+            "price": 80,
+            "image": "https://images.pexels.com/photos/554609/pexels-photo-554609.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "SUNSET ESCAPE PATH",
+            "state": "Queensland",
+            "district": "Brisbane",
+            "price": 90,
+            "image": "https://images.pexels.com/photos/914128/pexels-photo-914128.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "WILDFLOWER WANDERLAND",
+            "state": "Western Australia",
+            "district": "Perth",
+            "price": 85,
+            "image": "https://images.pexels.com/photos/1002272/pexels-photo-1002272.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           }
         ],
         "skyDivingSpots": [
@@ -375,8 +445,39 @@
             "District": "Melbourne",
             "price": 100,
             "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/6b/98/a9.jpg"
+          },
+          {
+            "title": "SYDNEY HORIZON LEAP",
+            "state": "New South Wales",
+            "district": "Sydney",
+            "price": 85,
+            "image": "https://images.pexels.com/photos/11114512/pexels-photo-11114512.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "BRISBANE SKY SOAR",
+            "state": "Queensland",
+            "district": "Brisbane",
+            "price": 75,
+            "image": "https://images.pexels.com/photos/15185849/pexels-photo-15185849/free-photo-of-men-on-parachute.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "ADELAIDE AERIAL THRILL",
+            "state": "South Australia",
+            "district": "Adelaide",
+            "price": 110,
+            "image": "https://images.pexels.com/photos/8479823/pexels-photo-8479823.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "PERTH SKYDIVING QUEST",
+            "state": "Western Australia",
+            "district": "Perth",
+            "price": 120,
+            "image": "https://images.pexels.com/photos/11114515/pexels-photo-11114515.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           }
         ],
+      
+
+        
         "raftingSpots": [
           {
             "title": "FRANKLIN RIVER ADVENTURE",
@@ -405,7 +506,36 @@
             "district": "Kangaroo Island",
             "price": 70,
             "image": "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/71/39/30.jpg"
+          },
+          {
+            "title": "BARRON RIVER ADVENTURE",
+            "state": "Queensland",
+            "district": "Cairns",
+            "price": 80,
+            "image": "https://images.pexels.com/photos/11183386/pexels-photo-11183386.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "MITTA MITTA RIVER CHALLENGE",
+            "state": "Victoria",
+            "district": "Albury-Wodonga",
+            "price": 65,
+            "image": "https://images.pexels.com/photos/17593044/pexels-photo-17593044/free-photo-of-white-water-rafting.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "CLARENCE RIVER EXPEDITION",
+            "state": "New South Wales",
+            "district": "Clarence Valley",
+            "price": 75,
+            "image": "https://images.pexels.com/photos/12328763/pexels-photo-12328763.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "DERWENT RIVER CHALLENGE",
+            "state": "Tasmania",
+            "district": "Hobart",
+            "price": 70,
+            "image": "https://images.pexels.com/photos/2161563/pexels-photo-2161563.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           }
+          
         ]
       },
       {
@@ -439,6 +569,34 @@
             "district": "Klein Karoo",
             "price": 90,
             "image": "https://brozaadventures.com/soft/file_store/highlight/1322615161CJ.jpg"
+          },
+          {
+            "title": "AMATHOLE TRAIL",
+            "state": "Eastern Cape",
+            "district": "Amathole",
+            "price": 70,
+            "image": "https://images.pexels.com/photos/1178525/pexels-photo-1178525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "DRAKENSBERG MOUNTAINS HIKE",
+            "state": "KwaZulu-Natal",
+            "district": "Drakensberg",
+            "price": 75,
+            "image": "https://images.pexels.com/photos/2695232/pexels-photo-2695232.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "GOLDEN GATE HIGHLANDS TREK",
+            "state": "Free State",
+            "district": "Maluti Mountains",
+            "price": 65,
+            "image": "https://images.pexels.com/photos/264151/pexels-photo-264151.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "WILDERNESS TRAIL",
+            "state": "Western Cape",
+            "district": "Garden Route",
+            "price": 80,
+            "image": "https://images.pexels.com/photos/2496880/pexels-photo-2496880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           }
         ],
         "skyDivingSpots": [
@@ -469,7 +627,36 @@
             "District": "Kruger National Park",
             "price": 110,
             "image": "https://media.istockphoto.com/id/496554912/photo/skydiving-photo.jpg?s=612x612&w=0&k=20&c=RYcytjN7o0y-RWFdyT2_AI9kCXDSB8Ln4xB6RpFtmkw="
+          },
+          {
+            "title": "TABLE MOUNTAIN FREEFALL",
+            "state": "Western Cape",
+            "price": 90,
+            "district": "Cape Town",
+            "image": "https://images.pexels.com/photos/15162714/pexels-photo-15162714/free-photo-of-a-skydiver-holding-onto-the-side-of-an-aircraft.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "WILDLIFE SKYDIVING SAFARI",
+            "state": "Limpopo",
+            "price": 95,
+            "district": "Waterberg",
+            "image": "https://images.pexels.com/photos/5943844/pexels-photo-5943844.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "GOLDEN BEACH DROP",
+            "state": "Eastern Cape",
+            "price": 100,
+            "district": "Port Elizabeth",
+            "image": "https://images.pexels.com/photos/10646791/pexels-photo-10646791.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "SUNSET SAFARI SKYDIVING",
+            "state": "North West",
+            "price": 110,
+            "district": "Pilanesberg",
+            "image": "https://images.pexels.com/photos/739671/pexels-photo-739671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           }
+          
         ],
         "raftingSpots": [
           {
@@ -499,11 +686,47 @@
             "district": "Stellenbosch",
             "price": 130,
             "image": "https://www.siyabona.com/images/zambezi-river-vic-falls-white-water-rafting-786x416.jpg"
+          },
+          {
+            "title": "DRAKENSBERG RAPIDS",
+            "state": "KwaZulu-Natal",
+            "district": "Drakensberg",
+            "price": 110,
+            "image": "https://images.pexels.com/photos/919804/pexels-photo-919804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "GARIEP DAM ADVENTURE",
+            "state": "Free State",
+            "district": "Gariep Dam",
+            "price": 115,
+            "image": "https://images.pexels.com/photos/2967846/pexels-photo-2967846.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "UMKO RIVER CHALLENGE",
+            "state": "KwaZulu-Natal",
+            "district": "Richmond",
+            "price": 120,
+            "image": "https://images.pexels.com/photos/3042376/pexels-photo-3042376.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          },
+          {
+            "title": "ORANGE RAPIDS RUN",
+            "state": "Northern Cape",
+            "district": "Augrabies Falls",
+            "price": 125,
+            "image": "https://images.pexels.com/photos/1305106/pexels-photo-1305106.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           }
+          
+          
+          
+          
+          
         ]
       }
-      
-      
     ]
   }
+    
+      
+      
+    
+  
   
