@@ -8,23 +8,16 @@ let paginationSection = document.getElementById('pagination-wrapper');
 var trekking_spots = [];
 var skyDiving_spots = [];
 var rafting_spots = [];
-var Country ;
+var currentNav = "trekking"; // Default to trekking
 
-
-async function fetchingUrl(url,page) {
+async function fetchingUrl(url, page) {
   try {
-    let res = await fetch(`${url}?id=${page||1}&_limit=1`);
+    let res = await fetch(`${url}?id=${page || 1}`);
     let data = await res.json();
 
     data.forEach((country) => {
-      console.log(country)
-      if(country.country){
-        Country = country.country;
-        console.log(Country);
-      }
       if (country.trekkingSpots) {
         trekking_spots.push(...country.trekkingSpots);
-        console.log(trekking_spots);
       }
 
       if (country.skyDivingSpots) {
@@ -33,12 +26,10 @@ async function fetchingUrl(url,page) {
 
       if (country.raftingSpots) {
         rafting_spots.push(...country.raftingSpots);
-        console.log(rafting_spots);
       }
     });
 
-    // After fetching, call the eventsSelected function
-    eventsSelected(trekking_spots);
+    eventsSelected();
   } catch (error) {
     console.error(error);
   }
@@ -49,23 +40,38 @@ fetchingUrl(url);
 
 // adding eventListeners
 Trekking.addEventListener('click', () => {
-  eventsSelected(trekking_spots);
+  currentNav = "trekking";
+  eventsSelected();
 });
 
 Skydiving.addEventListener('click', () => {
-  eventsSelected(skyDiving_spots);
+  currentNav = "skyDiving";
+  eventsSelected();
 });
 
 Riverrafting.addEventListener('click', () => {
-  eventsSelected(rafting_spots);
+  currentNav = "rafting";
+  eventsSelected();
 });
 
-function eventsSelected(eventName) {
+function eventsSelected() {
   // Clear the existing content in mainSection
   mainSection.innerHTML = '';
-  
-  // Append the cardList to the mainSection
-  mainSection.append(cardListMaker(eventName));
+
+  // Update the cardList to the mainSection based on the currentNav
+  switch (currentNav) {
+    case "trekking":
+      mainSection.append(cardListMaker(trekking_spots));
+      break;
+    case "skyDiving":
+      mainSection.append(cardListMaker(skyDiving_spots));
+      break;
+    case "rafting":
+      mainSection.append(cardListMaker(rafting_spots));
+      break;
+    default:
+      break;
+  }
 }
 
 function cardListMaker(spots) {
@@ -104,7 +110,14 @@ function cardMaker(spot) {
   Price.className = "card-price";
   Price.textContent = `Estimated price : $${spot.price}`;
 
-  card.append(imageDiv, Title, State, Price);
+  let anchor = document.createElement('a');
+  anchor.href = "../searchDestinations/searchDestinations.html";
+
+  let btn = document.createElement('button');
+  btn.className = "explore-button";
+  btn.innerHTML = 'Explore Destination';
+ anchor.append(btn);
+  card.append(imageDiv, Title, State, Price,anchor);
 
   return card;
 }
@@ -116,7 +129,7 @@ function pagination() {
     let button = document.createElement('button');
     button.className = 'paginated-buttons';
     button.innerHTML = i;
-    
+
     button.addEventListener('click', () => {
       mainSection.innerHTML = '';
       trekking_spots = [];
@@ -128,6 +141,5 @@ function pagination() {
     paginationSection.append(button);
   }
 }
-
 
 pagination();
