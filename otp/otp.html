@@ -49,6 +49,7 @@
         </nav>
     </div>
 <!----otp part by Saumya-->
+<div class="timer-container" id="timerContainer"></div>
 <div class="otp-container">
     <label id="otpenter"><h3> Enter otp</h3> </label>
     <br>
@@ -56,9 +57,9 @@
     <input type="text" class="otp-input" maxlength="1" />
     <input type="text" class="otp-input" maxlength="1" />
     <input type="text" class="otp-input" maxlength="1" />
-  
   </div>
-  <button class="submit-button"><a href="../success/success.html" id="sucess">Submit</a></button>
+  <p id="resend" onclick="startTimer">Resend otp</p>
+  <button class="submit-button" onclick="submitOtp()">Submit</button>
    
 
 
@@ -121,6 +122,6 @@
         </div>
     </div>
 </body>
-<script src="index.js"></script>
+<script src="otp.js"></script>
 
 </html>
