@@ -1,14 +1,13 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-}
+
 
 section {
     margin: 20px 0;
 }
 
-h2 {
+h1,h2 {
     color: #333;
+    text-align: center;
+    
 }
 
 .package {
@@ -27,14 +26,30 @@ select {
 }
 
 p {
-    margin: 10px 0;
+    margin: 10px ;
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: "Afacad", sans-serif;
+    
     background-color: #f4f4f4;
+}
+.paginated-buttons{
+  align-items: center;
+  width: 90px;
+  height: 40px;
+  margin: 5px;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 15px;
+  background-color: #3498db;
+}
+
+#pagination-wrapper{
+  margin-top: 10px;
+  margin-left: 35%;
+  display: inline-block;
+  gap: 5px;
 }
 
 nav {
@@ -83,10 +98,15 @@ nav a.active {
 
 /* Styling for individual cards */
 .card {
+
   border-radius: 10px;
+  width: 25%;
+  padding: 2rem;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
   transition: transform 0.3s ease-in-out;
+
 }
 
 .card:hover {
@@ -106,8 +126,10 @@ nav a.active {
 
 .image-section img {
   width: 250px;
-  object-fit: cover; /* Maintain image aspect ratio and cover the entire container */
+  object-fit: cover;
+  /* Maintain image aspect ratio and cover the entire container */
   display: block;
+  margin: auto;
 }
 
 /* Styling for card content */
@@ -127,3 +149,19 @@ nav a.active {
   margin-top: 5px;
 }
 
+.explore-button{
+  align-items: center;
+  width: 130px;
+  height: 30px;
+  margin: 5px;
+  color: #f0f0f0;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 15px;
+  background-color: #08314d;
+  font-family: "Afacad", sans-serif;
+}
+
+.heading{
+  margin-top: 10px;
+}
