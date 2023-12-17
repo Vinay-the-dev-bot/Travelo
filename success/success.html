@@ -1,80 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Booking Page</title>
-    <link rel="stylesheet" href="success.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Afacad&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-    />
-  </head>
-  <body>
-    <div id="header">
-      <div id="topbar">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-      </div>
-      <nav id="navBar">
-        <div id="logo">
-          <img src="/byte-harmony-2098/Assets/pics/Travelo-Logo.png" alt="" />
-        </div>
-        <div id="navBarlist">
-          <p>Home</p>
-          <p>Destinations</p>
-          <p>Pricing</p>
-          <p>About Us</p>
-          <p>Features</p>
-          <p>Reviews</p>
-        </div>
-        <div id="contactUS">CONTACT US</div>
-      </nav>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Booking Page</title>
+  <link rel="stylesheet" href="success.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Afacad&display=swap" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+  <div id="header">
+    <div id="topbar">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
     </div>
-    <div id="bookingDetails">
-      <div id="bookingDetailspage">
-        <h1 id="eventTitle"></h1>
-        <img id="eventImage" />
-        <p>
-          <span class="material-symbols-outlined"> location_on </span>
-          <span id="location"></span>
-        </p>
-        <p id="priceText">
-          <span class="material-symbols-outlined"> payments </span>
-           Total Price
-         : <span id="price"> </span>
-        </p>
-        <div id="touristDetails">
+    <nav id="navBar">
+      <div id="logo">
+        <img src="/byte-harmony-2098/Assets/pics/Travelo-Logo.png" alt="" />
+      </div>
+      <div id="navBarlist">
+        <p>Home</p>
+        <p>Destinations</p>
+        <p>Pricing</p>
+        <p>About Us</p>
+        <p>Features</p>
+        <p>Reviews</p>
+      </div>
+      <div id="contactUS">CONTACT US</div>
+    </nav>
+  </div>
+  <div id="bookingDetails">
+    <div id="bookingDetailspage">
+      <h1 id="eventTitle"></h1>
+      <img id="eventImage" />
+      <p>
+        <span class="material-symbols-outlined"> location_on </span>
+        <span id="location"></span>
+      </p>
+      <p id="priceText">
+        <span class="material-symbols-outlined"> payments </span>
+        Total Price
+        : <span id="price"> </span>
+      </p>
+      <div id="touristDetails">
+        <div class="text">
+          <span class="material-symbols-outlined"> group </span>
+          Number of people :
+          <span id="noofppl"> </span>
+        </div>
+        <div id="travelerDetails">
           <div class="text">
             <span class="material-symbols-outlined"> group </span>
-            Number of people :
-           <span id="noofppl"> </span>
+            Traveller's Details :
+            <span id="travelppl"></span>
           </div>
-          <div id="travelerDetails">
-            <div class="text">
-              <span class="material-symbols-outlined"> group </span>
-              Traveller's Details :
-             <span id="travelppl"></span>
-            </div>
-          
+
           <span class="material-symbols-outlined"> calendar_month </span>
           <label for="eventDate">Confirmed Date : </label>
           <span id="cdate"></span>
@@ -82,7 +74,7 @@
         </div>
         <p id="bookedsucess">Successfully booked !!</p>
         <button id="availability"><a href="../index.html">OK</a></button>
-        
+
       </div>
     </div>
     <div id="footer">
@@ -91,26 +83,14 @@
         <div>Leading the way in adventure</div>
         <div id="socials">
           <a href="#">
-            <img
-              src="../byte-harmony-2098/Assets/pics/FacebookIcon.png"
-              alt="Facebook"
-            />
+            <img src="../Assets/pics/FacebookIcon.png" alt="Facebook" />
           </a>
           <a href="#">
-            <img
-              src="../byte-harmony-2098/Assets/pics/Twitter Icon.png"
-              alt="Twitter"
-          /></a>
+            <img src="../Assets/pics/Twitter Icon.png" alt="Twitter" /></a>
           <a href="#">
-            <img
-              src="../byte-harmony-2098/Assets/pics/Instagram Icon.png"
-              alt="Instagram"
-          /></a>
+            <img src="../Assets/pics/Instagram Icon.png" alt="Instagram" /></a>
           <a href="#">
-            <img
-              src="../byte-harmony-2098/Assets/pics/Youtube Icon.png"
-              alt="Youtube"
-          /></a>
+            <img src="../Assets/pics/Youtube Icon.png" alt="Youtube" /></a>
         </div>
         <div>Join our Newsletter</div>
         <div>
@@ -155,8 +135,7 @@
         <img src="../byte-harmony-2098/Assets/pics/payoneerLogo.png" alt="" />
       </div>
     </div>
-  </body>
-  <script src="success.js"></script>
+</body>
+<script src="success.js"></script>
+
 </html>
-
-

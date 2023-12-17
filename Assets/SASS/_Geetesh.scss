@@ -1,5 +1,16 @@
 #life-memory {
   font-family: 'Rethink Sans', sans-serif;
+  .hidenUser {
+    display: none;
+  }
+  .showUser {
+    display: block;
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: -2rem;
+  }
   #life-memory-heading {
     margin: auto;
     margin-top: 4rem;
@@ -8,8 +19,6 @@
     text-align: center;
     font-size: 4.5rem;
     font-weight: 700;
-    // font-family: 'Open Sans', sans-serif;
-    font-family: 'Rethink Sans', sans-serif;
   }
   .life-memory-btns {
     // border: 2px solid red;
@@ -33,6 +42,7 @@
       align-items: center;
       padding-top: 0px;
       font-size: 0.8rem;
+      cursor: pointer;
     }
     p > span {
       font-size: 1.3rem;

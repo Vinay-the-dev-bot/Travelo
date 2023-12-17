@@ -364,6 +364,17 @@ body #footer3 img {
 #life-memory {
   font-family: "Rethink Sans", sans-serif;
 }
+#life-memory .hidenUser {
+  display: none;
+}
+#life-memory .showUser {
+  display: block;
+  text-align: center;
+  margin-top: 4rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: -2rem;
+}
 #life-memory #life-memory-heading {
   margin: auto;
   margin-top: 4rem;
@@ -371,7 +382,6 @@ body #footer3 img {
   text-align: center;
   font-size: 4.5rem;
   font-weight: 700;
-  font-family: "Rethink Sans", sans-serif;
 }
 #life-memory .life-memory-btns {
   margin-top: 3rem;
@@ -395,6 +405,7 @@ body #footer3 img {
   align-items: center;
   padding-top: 0px;
   font-size: 0.8rem;
+  cursor: pointer;
 }
 #life-memory .life-memory-btns p > span {
   font-size: 1.3rem;
