@@ -3,7 +3,15 @@ let container = document.getElementById('bookingDetails')
 let create = (element) => document.createElement(element)
 
 function loadEventData() {
-  let bookingDetails = JSON.parse(localStorage.getItem('bookingDetails'))
+  let bookingDetails = JSON.parse(localStorage.getItem('formDetails'))
+  let bookingDetails2 = JSON.parse(localStorage.getItem('event'));
+  let bookingDetails3 = JSON.parse(localStorage.getItem('bookingDetails'));
+  let price2 = bookingDetails2.price;
+  let numOfPeople = bookingDetails.length;
+  console.log(price2, " : ", numOfPeople)
+  let priceForAll = Number(price2) * Number(numOfPeople);
+  console.log(priceForAll, " : ", numOfPeople)
+  console.log(priceForAll)
   
   console.log(bookingDetails)
 
@@ -20,13 +28,14 @@ function loadEventData() {
   location.textContent = `${event.district}, ${event.state}`
 
   let price = document.getElementById('price')
-  price.textContent = `${bookingDetails.totalPrice}.00 $`
+  // price.textContent = `${bookingDetails.totalPrice}.00 $`
+  price.textContent = `${priceForAll}.00 $`
 
   let noofppl = document.getElementById('noofppl')
-  noofppl.textContent = `${bookingDetails.noOfPeople}`
+  noofppl.textContent = `${numOfPeople}`
 
   let cdate = document.getElementById('cdate')
-  cdate.textContent = `${bookingDetails.date}`
+  cdate.textContent = `${bookingDetails3.date}`
 
 
 
@@ -36,18 +45,23 @@ function loadEventData() {
 
 function tvData() {
   let formDetails = JSON.parse(localStorage.getItem('formDetails'))
-  let travelppl=document.getElementById("travelppl")
-formDetails.forEach(el => {
-  let tr=document.createElement("tr")
+  let travelppl = document.getElementById("travelppl")
+  let i = 1; 
+  formDetails.forEach(el => {
+    let tr = document.createElement("tr")
+    if (i % 2 == 0) { 
+      tr.setAttribute("style","background-color:#7e739e;;")
+    }
   let name=document.createElement("td")
   name.textContent=el.name;
   let gender=document.createElement("td")
   gender.textContent=el.gender;
   let age=document.createElement("td")
   age.textContent=el.age;
-  
+    
   tr.append(name,gender,age)
-  travelppl.appendChild(tr)
+    travelppl.appendChild(tr)
+    i++;
 });
   console.log(formDetails)
 }

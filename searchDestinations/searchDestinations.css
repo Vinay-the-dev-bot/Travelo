@@ -214,7 +214,8 @@ body #footer3 img {
 }
 #searchForm #searchCriteria {
   display: flex;
-  height: 150px;
+  height: 75px;
+  border-radius: 20px;
   align-items: center;
   background-color: #f9f9f9;
   gap: 50px;
@@ -234,7 +235,6 @@ body #footer3 img {
 }
 #searchForm #searchInp {
   padding: 20px 50px;
-  margin: 25px;
   display: flex;
   gap: 200px;
 }

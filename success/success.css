@@ -180,8 +180,8 @@ body #footer3 img {
   font-size: 2rem;
 }
 #bookingDetails .bookedsucess > p {
-  margin-top: 0px;
-  margin-bottom: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 #bookingDetails #bookingDetailspage {
   font-size: 25px;
@@ -200,17 +200,15 @@ body #footer3 img {
   margin-bottom: 1.5rem;
   margin-top: -1rem;
 }
-#bookingDetails #bookingDetailspage #touristDetails .formDetailsText .formDetails tr {
-  border: 2px solid black;
-}
 #bookingDetails #bookingDetailspage #touristDetails .formDetailsText .formDetails th {
-  border: 2px solid black;
   padding: 0.1rem 2rem;
   font-size: 1.4rem;
+  background-color: #362F4B;
+  color: white;
+  font-weight: 100;
 }
 #bookingDetails #bookingDetailspage #touristDetails .formDetailsText .formDetails td {
-  border: 2px solid black;
-  padding: 0.1rem 2rem;
+  padding: 0.5rem 2rem;
   font-size: 1.2rem;
 }
 #bookingDetails #bookingDetailspage #touristDetails .text {
@@ -249,7 +247,8 @@ body #footer3 img {
   background-color: #f9f9f9;
   border-radius: 10px;
   border: none;
-  margin-top: 20px;
+  display: block;
+  margin: 50px auto;
   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
   color: #36395a;
   cursor: pointer;

@@ -1,40 +1,38 @@
-
-
 section {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
-h1,h2 {
-    color: #333;
-    text-align: center;
-    
+h1,
+h2 {
+  color: #333;
+  text-align: center;
 }
 
 .package {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
 }
 
 label {
-    display: block;
-    margin-bottom: 5px;
+  display: block;
+  margin-bottom: 5px;
 }
 
 select {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 p {
-    margin: 10px ;
+  margin: 10px;
 }
 
 body {
   font-family: "Afacad", sans-serif;
-    
-    background-color: #f4f4f4;
+
+  background-color: #f4f4f4;
 }
-.paginated-buttons{
+.paginated-buttons {
   align-items: center;
   width: 90px;
   height: 40px;
@@ -45,60 +43,62 @@ body {
   background-color: #3498db;
 }
 
-#pagination-wrapper{
-  margin-top: 10px;
+#pagination-wrapper {
+  /* margin-top: 10px;
   margin-left: 35%;
   display: inline-block;
+  gap: 5px; */
+  margin: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
   gap: 5px;
 }
 
-nav {
-    background-color: #3498db;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
+#pricingNav {
+  background-color: #3498db;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
-nav a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
+#pricingNav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
 }
 
-nav a:hover {
-    background-color: #2980b9;
-    color: white;
+#pricingNav a:hover {
+  background-color: #2980b9;
+  color: white;
 }
 
-nav a.active {
-    background-color: #2980b9;
-    color: white;
+#pricingNav a.active {
+  background-color: #2980b9;
+  color: white;
 }
 
-
-  
 .package {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 20px;
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
 /* Styling for the card container */
 .card-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
   justify-content: center;
 }
 
 /* Styling for individual cards */
 .card {
-
   border-radius: 10px;
   width: 25%;
   padding: 2rem;
@@ -106,7 +106,6 @@ nav a.active {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: transform 0.3s ease-in-out;
-
 }
 
 .card:hover {
@@ -114,7 +113,6 @@ nav a.active {
 }
 
 /* Styling for the image section within the card */
-
 
 /* Styling for card content */
 /* Styling for the image section within the card */
@@ -149,7 +147,7 @@ nav a.active {
   margin-top: 5px;
 }
 
-.explore-button{
+.explore-button {
   align-items: center;
   width: 130px;
   height: 30px;
@@ -162,6 +160,6 @@ nav a.active {
   font-family: "Afacad", sans-serif;
 }
 
-.heading{
+.heading {
   margin-top: 10px;
 }
