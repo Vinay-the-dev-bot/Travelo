@@ -9,9 +9,6 @@
 - [Tech Stacks Used](#tech-stacks-used)
 - [Project Overview](#project-overview)
 - [Project Planning](#project-planning)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgments](#acknowledgments)
 
 ## About
@@ -43,20 +40,21 @@ This project is built using the following technologies:
 The project is divided into three main sections:
 
 1. **Home**: A section that introduces the portfolio, includes a logo, and provides navigation links to different parts of the portfolio.
-<img src="https://github.com/shraddha-gawde/healthy-discovery-1593/assets/101090200/7368efae-2486-4f49-82ee-7c2a6dc65335">
+<img src="https://github.com/Vinay-the-dev-bot/byte-harmony-2098/assets/146977653/cdbef4b2-da3e-46d6-b714-d09ff5e86607">
 <br></br>
 2. **Log in and sign up** : User can register and log in to the website.
-   <img src = "">
+   <img src = "https://github.com/Vinay-the-dev-bot/byte-harmony-2098/assets/146977653/cf350460-bdc0-479f-87fd-497c1e5f6f14">
    
 <br></br>
 3. **Pricing**: The section where you can explore the pricing for different sporting events based on different destinations.
-<img src= "https://github.com/shraddha-gawde/healthy-discovery-1593/assets/101090200/f6c816d6-583c-4144-ad7e-2a0873ae156b">
+<img src= "https://github.com/Vinay-the-dev-bot/byte-harmony-2098/assets/146977653/886ccbfa-875c-4489-8d7e-fce06a1a6c67">
 
 <br></br>
 3. **Book Sporting Event**: A section that allows user to search sporting events based on different locations and different categories of sporting events.
-<img src="https://github.com/shraddha-gawde/healthy-discovery-1593/assets/101090200/6dd41e2b-8de4-4480-9c6b-11679c6ff0c4">
+<img src="https://github.com/Vinay-the-dev-bot/byte-harmony-2098/assets/146977653/12514b36-0e1e-4b40-8882-44982a910419">
 
-4. **About**: Travelo is one of the fastest growing online travel portals in Asia, offering travellers an extensive selection of hotels, activities and travel services to meet every budget and activities of every kind at competitive rates 
+4. **About**: Travelo is one of the fastest growing online travel portals in Asia, offering travellers an extensive selection of hotels, activities and travel services to meet every budget and activities of every kind at competitive rates.
+<img src="https://github.com/Vinay-the-dev-bot/byte-harmony-2098/assets/146977653/e8e25c7c-983f-4de6-b4f6-0763155448e7">
    
 <br></br>
 
