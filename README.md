@@ -19,7 +19,7 @@
 Travelo is a collaborative project that includes a group of four members. This project serves as a travel website that allows the user to book the tickets for different destinations based on the user's choice with different sporting events.
 
 ## Live Link
-<a href="https://byte-harmony-2098-2t9nrvp2j-vinays-projects-62dae745.vercel.app/index.html">developer's porfolio</a>
+<a href="https://byte-harmony-2098-2t9nrvp2j-vinays-projects-62dae745.vercel.app/index.html">Travelo website link</a>
 
 ## Team Members
 
@@ -56,39 +56,21 @@ The project is divided into three main sections:
 3. **Book Sporting Event**: A section that allows user to search sporting events based on different locations and different categories of sporting events.
 <img src="https://github.com/shraddha-gawde/healthy-discovery-1593/assets/101090200/6dd41e2b-8de4-4480-9c6b-11679c6ff0c4">
 
-4. **About**:
+4. **About**: Travelo is one of the fastest growing online travel portals in Asia, offering travellers an extensive selection of hotels, activities and travel services to meet every budget and activities of every kind at competitive rates 
    
 <br></br>
 
 ## Project Planning
 
-This project was assigned to us at the beginning of our construction week. After analyzing the project requirements, each team member took responsibility for one of the three main sections. We worked independently on our assigned sections and created daily branches to commit and push our work. Collaboration was smooth, and at the end, we merged the final code into the main branch, successfully completing the project.
-
-## Getting Started
-
-To get a copy of this project up and running on your local machine, you can follow these steps:
-
-1. Clone the repository:
-    https://github.com/your-username/healthy-discovery.git
-
-
-2. Open the project in your favorite code editor.
-
-3. Explore the HTML and CSS files to understand the structure and styling of the portfolio.
-
-4. Make any desired modifications or use it as a template for your own portfolio.
-
-## Contributing
-
-We welcome contributions to improve this project. If you'd like to contribute, please follow our [Contributing Guidelines](CONTRIBUTING.md).
+This project was assigned to us at the beginning of our construction week. After analyzing the project requirements, each team member took responsibility for designing the layouts and functionality of each sections that were assigned to each member. We worked independently on our assigned tasks and created daily branches to commit and push our work. Collaboration was smooth, and at the end, we merged the final work into the main branch, successfully completing the project.
 
 ## Acknowledgments
 
-We would like to express our gratitude to our project mentor, Sir Rahul Rajeevan, for providing guidance and support throughout the project.
+We would like to express our gratitude to our project mentor, Sir Pavan Ambulkar, for providing guidance and support throughout the project.
 
 ---
 
-For questions or more information, you can contact our team leader, Shraddha Gawade, at [email@example.com].
+For questions or more information, you can contact our team leader, Vinayagoud Meti, at vinaygouda.meti16@gmail.com
 
-[Visit our project page](https://github.com/your-username/healthy-discovery) for more details.
+[Visit our project page](https://github.com/Vinay-the-dev-bot/byte-harmony-2098) for more details.
 
