@@ -78,7 +78,7 @@ document.getElementById("availability").addEventListener("click", () => {
         let book = create("a");
         let button = create("button");
         button.setAttribute("id", "bookNow");
-        book.setAttribute("href", "/byte-harmony-2098/travelPage/travel.html");
+        book.setAttribute("href", "../travelpage/travel.html");
       button.textContent = "Book Now!!";
       button.addEventListener("click", () => {  
         let noOfPeople = document.getElementById("display").value;
