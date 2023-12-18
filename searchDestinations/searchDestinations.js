@@ -55,7 +55,7 @@ function addData(spot,i) {
         title.textContent = spot.title;
     
         let price = create("p");
-        price.innerHTML = `Price<span id="pricePerPerson">  Per  Person : </span> ${spot.price}`;
+        price.innerHTML = `Price<span id="pricePerPerson">  Per  Person : </span> ${spot.price}.00$`;
          
         let location = create("p");
         location.textContent = `${spot.district}, ${spot.state}`;
