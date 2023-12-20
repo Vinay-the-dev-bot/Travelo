@@ -172,16 +172,22 @@ body #footer3 img {
   padding: 50px;
 }
 #bookingDetails .bookedsucess {
-  text-align: center;
-  color: green;
+  color: #27ae60;
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: bold;
   font-size: 2rem;
 }
-#bookingDetails .bookedsucess > p {
+#bookingDetails .bookedsucess p {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+#bookingDetails .congrats {
+  color: #27ae60;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 2rem;
 }
 #bookingDetails #bookingDetailspage {
   font-size: 25px;
@@ -203,7 +209,7 @@ body #footer3 img {
 #bookingDetails #bookingDetailspage #touristDetails .formDetailsText .formDetails th {
   padding: 0.1rem 2rem;
   font-size: 1.4rem;
-  background-color: #362F4B;
+  background-color: #27ae60;
   color: white;
   font-weight: 100;
 }
@@ -216,39 +222,12 @@ body #footer3 img {
   gap: 10px;
   margin-bottom: 1.5rem;
 }
-#bookingDetails #bookingDetailspage #touristDetails .text #inc,
-#bookingDetails #bookingDetailspage #touristDetails .text #dec {
-  background-color: #f9f9f9;
-  border-radius: 2px;
-  border: none;
-  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
-  color: #36395a;
-  cursor: pointer;
-  font-family: "Afacad", sans-serif;
-  padding: 0 10px;
-  transition: box-shadow 0.15s, transform 0.15s;
-  font-size: 25px;
-}
-#bookingDetails #bookingDetailspage #touristDetails .text #display {
-  padding: 10px;
-  border-radius: 5px;
-  border: none;
-  text-align: center;
-  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
-}
-#bookingDetails #bookingDetailspage #touristDetails .text input::-webkit-outer-spin-button,
-#bookingDetails #bookingDetailspage #touristDetails .text input::-webkit-inner-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
-}
-#bookingDetails #bookingDetailspage #otherLocations,
-#bookingDetails #bookingDetailspage #bookNow,
 #bookingDetails #bookingDetailspage #availability {
-  background-color: #f9f9f9;
+  background-color: #27ae60;
   border-radius: 10px;
   border: none;
   display: block;
-  margin: 50px auto;
+  margin: 50px 0;
   box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
   color: #36395a;
   cursor: pointer;
@@ -258,8 +237,6 @@ body #footer3 img {
   transition: box-shadow 0.15s, transform 0.15s;
   font-size: 25px;
 }
-#bookingDetails #bookingDetailspage #otherLocations a,
-#bookingDetails #bookingDetailspage #bookNow a,
 #bookingDetails #bookingDetailspage #availability a {
   text-decoration: none;
   color: #36395a;
@@ -273,7 +250,7 @@ body #footer3 img {
 #bookingDetails #bookingDetailspage #otherLocations:active,
 #bookingDetails #bookingDetailspage #bookNow:active,
 #bookingDetails #bookingDetailspage #availability:active {
-  box-shadow: #d6d6e7 0 3px 7px inset;
+  box-shadow: #27ae60 0 3px 7px inset;
   transform: translateY(2px);
 }
 #bookingDetails #bookingDetailspage #eventDate {

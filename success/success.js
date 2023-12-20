@@ -1,4 +1,5 @@
 let container = document.getElementById('bookingDetails')
+let travellersDetails = document.getElementById('travellersDetails');
 
 let create = (element) => document.createElement(element)
 
@@ -10,10 +11,10 @@ function loadEventData() {
   let numOfPeople = bookingDetails.length;
   console.log(price2, " : ", numOfPeople)
   let priceForAll = Number(price2) * Number(numOfPeople);
-  console.log(priceForAll, " : ", numOfPeople)
-  console.log(priceForAll)
+  // console.log(priceForAll, " : ", numOfPeople)
+  // console.log(priceForAll)
   
-  console.log(bookingDetails)
+  // console.log(bookingDetails)
 
   // let bookingDetails={"noOfPeople":"3","date":"2023-12-20","totalPrice":150}
   let event = JSON.parse(localStorage.getItem('event'))
@@ -50,7 +51,7 @@ function tvData() {
   formDetails.forEach(el => {
     let tr = document.createElement("tr")
     if (i % 2 == 0) { 
-      tr.setAttribute("style","background-color:#7e739e;;")
+      tr.setAttribute("style","background-color:#5dd991;")
     }
   let name=document.createElement("td")
   name.textContent=el.name;
@@ -66,4 +67,15 @@ function tvData() {
   console.log(formDetails)
 }
 tvData()
+function travellers(){ 
+  let formDetails = JSON.parse(localStorage.getItem('formDetails'))
+  console.log(formDetails)
+  for (person of formDetails) { 
+    console.log(person)
+    let per = create("p");
+    per.textContent = `Name : ${person.name}, Age : ${person.age}, Gender : ${person.gender}`
+    travellersDetails.appendChild(per);
+  }
+}
+// travellers();
 loadEventData()

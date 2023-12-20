@@ -4,17 +4,24 @@
   font-family: 'Afacad', sans-serif;
   padding: 50px;
   .bookedsucess {
-    > p {
+    p {
       margin-top: 20px;
       margin-bottom: 20px;
     }
-    text-align: center;
-    color: green;
+    // text-align: center;
+    color: #27ae60;
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: bold;
     font-size: 2rem;
   }
+    .congrats {
+       color: #27ae60;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      font-weight: bold;
+      font-size: 2rem;
+    }
   #bookingDetailspage {
     font-size: 25px;
     padding: 50px;
@@ -33,14 +40,12 @@
           border-collapse: collapse;
           margin-bottom: 1.5rem;
           margin-top: -1rem;
-          tr {
-            // border: 2px solid black;
-          }
+           
           th {
             // border: 2px solid black;
             padding: 0.1rem 2rem;
             font-size: 1.4rem;
-            background-color: #362F4B;
+            background-color: #27ae60;
             color: white;
             font-weight: 100;
           }
@@ -56,43 +61,14 @@
         display: flex;
         gap: 10px;
         margin-bottom: 1.5rem;
-        #inc,
-        #dec {
-          background-color: #f9f9f9;
-          border-radius: 2px;
-          border: none;
-          box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
-            rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
-          color: #36395a;
-          cursor: pointer;
-          font-family: 'Afacad', sans-serif;
-          padding: 0 10px;
-          transition: box-shadow 0.15s, transform 0.15s;
-          font-size: 25px;
-        }
-        #display {
-          padding: 10px;
-          border-radius: 5px;
-          border: none;
-          text-align: center;
-          box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
-            rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
-        }
-        input::-webkit-outer-spin-button,
-        input::-webkit-inner-spin-button {
-          -webkit-appearance: none;
-          margin: 0;
-        }
       }
-    }
-    #otherLocations,
-    #bookNow,
+    }  
     #availability {
-      background-color: #f9f9f9;
+      background-color: #27ae60;
       border-radius: 10px;
       border: none;
       display: block;
-      margin: 50px auto;
+      margin: 50px 0  ;
       // margin-top: 20px;
       box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,
         rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
@@ -120,7 +96,7 @@
     #otherLocations:active,
     #bookNow:active,
     #availability:active {
-      box-shadow: #d6d6e7 0 3px 7px inset;
+      box-shadow: #27ae60 0 3px 7px inset;
       transform: translateY(2px);
     }
 
